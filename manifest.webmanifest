@@ -1,0 +1,13 @@
+{
+  "name":"민법 터치 문제풀이",
+  "short_name":"민법 터치",
+  "lang":"ko-KR",
+  "start_url":"./index.html",
+  "display":"standalone",
+  "background_color":"#f6f7fb",
+  "theme_color":"#111827",
+  "icons":[
+    {"src":"icon-180.png","sizes":"180x180","type":"image/png","purpose":"any maskable"},
+    {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
