@@ -11,58 +11,49 @@
 <link rel="apple-touch-icon" href="icon-180.png">
 <title>민법 터치</title>
 <style>
-:root{--bg:#f6f7fb;--card:#fff;--ink:#111827;--muted:#6b7280;--line:#e5e7eb;--good:#047857;--goodbg:#ecfdf5;--bad:#b91c1c;--badbg:#fef2f2;--accent:#111827}
+:root{--bg:#f5f6fa;--card:#fff;--ink:#111827;--muted:#6b7280;--line:#e5e7eb;--good:#047857;--goodbg:#ecfdf5;--bad:#b91c1c;--badbg:#fef2f2}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Apple SD Gothic Neo","Noto Sans KR",sans-serif}
-button,input{font:inherit}
+button,input,select{font:inherit}
 button{touch-action:manipulation}
 .app{max-width:720px;margin:0 auto;min-height:100dvh}
-header{position:sticky;top:0;z-index:10;background:rgba(246,247,251,.95);backdrop-filter:blur(14px);padding:14px 16px 10px;border-bottom:1px solid var(--line)}
+header{position:sticky;top:0;z-index:10;background:rgba(245,246,250,.95);backdrop-filter:blur(14px);padding:14px 16px 10px;border-bottom:1px solid var(--line)}
 .top{display:flex;align-items:center;justify-content:space-between;gap:10px}
-.brand{font-weight:850;font-size:20px}
-.settings{border:0;background:#fff;width:42px;height:42px;border-radius:14px;box-shadow:0 1px 4px rgba(0,0,0,.06);font-size:20px}
+.brand{font-size:20px;font-weight:850}
+.headBtns{display:flex;gap:7px}
+.iconBtn{width:42px;height:42px;border:0;border-radius:13px;background:#fff;box-shadow:0 1px 5px rgba(0,0,0,.06)}
 .progress{height:7px;background:#e5e7eb;border-radius:99px;overflow:hidden;margin-top:10px}
-.progress>div{height:100%;background:#111827;width:0%;transition:.25s}
-main{padding:16px}
+.progress>div{height:100%;background:#111827;width:0;transition:.2s}
+main{padding:15px}
+.toolbar{display:flex;gap:8px;margin-bottom:10px}
+.toolbar select,.toolbar button{flex:1;border:1px solid var(--line);background:#fff;border-radius:13px;padding:11px 10px;font-weight:750}
 .stats{display:flex;gap:8px;margin-bottom:12px}
-.stat{flex:1;background:#fff;border:1px solid var(--line);border-radius:14px;padding:9px 10px;text-align:center}
-.stat b{display:block;font-size:18px}
-.stat span{font-size:11px;color:var(--muted)}
-.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:18px;box-shadow:0 7px 25px rgba(17,24,39,.05)}
-.meta{display:flex;justify-content:space-between;color:var(--muted);font-size:13px;margin-bottom:10px}
+.stat{flex:1;background:#fff;border:1px solid var(--line);border-radius:14px;padding:8px;text-align:center}
+.stat b{display:block;font-size:18px}.stat span{font-size:11px;color:var(--muted)}
+.card{background:#fff;border:1px solid var(--line);border-radius:21px;padding:17px;box-shadow:0 7px 24px rgba(17,24,39,.05)}
+.meta{display:flex;justify-content:space-between;color:var(--muted);font-size:13px;margin-bottom:9px}
 .step{font-size:13px;font-weight:800;margin-bottom:10px}
-.question{font-size:19px;line-height:1.72;font-weight:720;white-space:pre-wrap}
-.blank-now{background:#111827;color:#fff;border-radius:7px;padding:1px 5px}
-.blank-done{background:#e5e7eb;color:#374151;border-radius:7px;padding:1px 5px}
-.choices{margin-top:16px}
-.choice{display:block;width:100%;text-align:left;border:2px solid #e5e7eb;background:#fff;border-radius:17px;padding:15px 14px;margin:9px 0;font-size:16px;line-height:1.45;cursor:pointer}
-.choice:active{transform:scale(.995)}
+.question{font-size:18px;line-height:1.72;font-weight:730;white-space:pre-wrap}
+.currentBlank{background:#111827;color:#fff;padding:1px 5px;border-radius:6px}
+.doneBlank{background:#e5e7eb;color:#374151;padding:1px 5px;border-radius:6px}
+.choices{margin-top:15px}
+.choice{width:100%;text-align:left;border:2px solid #e5e7eb;background:#fff;border-radius:16px;padding:14px;margin:8px 0;line-height:1.45;cursor:pointer}
 .choice.correct{border-color:var(--good);background:var(--goodbg);color:#065f46}
 .choice.wrong{border-color:var(--bad);background:var(--badbg);color:#991b1b}
-.choice.dim{opacity:.5}
-.letter{display:inline-grid;place-items:center;width:30px;height:30px;margin-right:9px;border-radius:10px;background:#f3f4f6;font-weight:850}
-.feedback{display:none;margin-top:12px;border-radius:15px;padding:13px;line-height:1.55}
-.feedback.show{display:block}
-.feedback.good{background:var(--goodbg);color:#065f46}
-.feedback.bad{background:var(--badbg);color:#991b1b}
-.explain{margin-top:7px;font-size:14px;color:#374151}
-.controls{display:flex;gap:9px;margin-top:13px}
-.ctrl{flex:1;padding:14px;border:1px solid var(--line);border-radius:15px;background:#fff;font-weight:800}
-.ctrl.primary{background:#111827;color:#fff;border-color:#111827}
-.ctrl:disabled{opacity:.4}
-.notice{margin-top:12px;font-size:12px;color:var(--muted);line-height:1.5}
-.modal{position:fixed;inset:0;background:rgba(0,0,0,.35);display:none;align-items:flex-end;z-index:30}
-.modal.show{display:flex}
-.sheet{width:100%;max-width:720px;margin:auto 0 0;background:#fff;border-radius:22px 22px 0 0;padding:20px 18px calc(20px + env(safe-area-inset-bottom));box-shadow:0 -10px 40px rgba(0,0,0,.14)}
-.sheet h2{margin:0 0 12px;font-size:19px}
-.sheet p{font-size:13px;color:var(--muted);line-height:1.55}
-.api{display:flex;gap:8px}
-.api input{flex:1;border:1px solid var(--line);border-radius:13px;padding:13px;min-width:0}
-.close{border:0;background:#f3f4f6;border-radius:13px;padding:0 15px;font-weight:800}
-.save{margin-top:9px;width:100%;padding:13px;border:0;background:#111827;color:#fff;border-radius:13px;font-weight:800}
-.loading{padding:14px;text-align:center;color:var(--muted)}
+.choice.dim{opacity:.5}.choice:disabled{cursor:default}
+.num{display:inline-grid;place-items:center;width:30px;height:30px;background:#f3f4f6;border-radius:9px;margin-right:8px;font-weight:850}
+.feedback{display:none;margin-top:12px;border-radius:14px;padding:12px;line-height:1.5}
+.feedback.show{display:block}.feedback.good{background:var(--goodbg)}.feedback.bad{background:var(--badbg)}
+.explain{margin-top:6px;font-size:14px;color:#374151}.src{margin-top:5px;font-size:12px;color:var(--muted)}
+.controls{display:flex;gap:8px;margin-top:12px}.ctrl{flex:1;padding:13px;border:1px solid var(--line);border-radius:14px;background:#fff;font-weight:800}.primary{background:#111827;color:#fff;border-color:#111827}
+.notice{font-size:12px;color:var(--muted);line-height:1.5;margin-top:10px}
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:50;align-items:flex-end}
+.modal.show{display:flex}.sheet{width:100%;max-width:720px;margin:0 auto;background:#fff;border-radius:20px 20px 0 0;padding:20px 18px calc(20px + env(safe-area-inset-bottom))}
+.sheet h2{margin:0 0 12px}.sheet p{font-size:13px;color:var(--muted);line-height:1.55}
+.sheet button,.sheet label{display:block;width:100%;padding:12px;border:1px solid var(--line);background:#fff;border-radius:13px;margin-top:8px;font-weight:750;text-align:center}
+.sheet .dark{background:#111827;color:#fff;border-color:#111827}.sheet input{display:none}
 .hidden{display:none!important}
-@media (max-width:480px){.question{font-size:18px}.card{padding:15px}.choice{font-size:15.5px;padding:15px}}
+@media (max-width:480px){.question{font-size:17px}.card{padding:15px}}
 </style>
 </head>
 <body>
@@ -70,258 +61,166 @@ main{padding:16px}
 <header>
   <div class="top">
     <div class="brand">⚖️ 민법 터치</div>
-    <button class="settings" id="settings" aria-label="설정">⚙️</button>
+    <div class="headBtns">
+      <button class="iconBtn" id="statsBtn">📊</button>
+      <button class="iconBtn" id="settingsBtn">⚙️</button>
+    </div>
   </div>
   <div class="progress"><div id="bar"></div></div>
 </header>
 <main>
+  <div class="toolbar">
+    <select id="mode">
+      <option value="all">전체 문제</option>
+      <option value="wrong">오답 집중</option>
+    </select>
+    <select id="subject">
+      <option value="민법">민법</option>
+    </select>
+  </div>
+
   <div class="stats">
-    <div class="stat"><b id="right">0</b><span>정답</span></div>
-    <div class="stat"><b id="wrong">0</b><span>오답</span></div>
+    <div class="stat"><b id="r">0</b><span>정답</span></div>
+    <div class="stat"><b id="w">0</b><span>오답</span></div>
     <div class="stat"><b id="rate">0%</b><span>정답률</span></div>
   </div>
 
-  <section class="card" id="card">
-    <div class="meta"><span id="qno"></span><span id="blankInfo"></span></div>
+  <section class="card">
+    <div class="meta"><span id="qno"></span><span id="slot"></span></div>
     <div class="step" id="step"></div>
-    <div id="qtext" class="question"></div>
-    <div id="loading" class="loading hidden">4지선다를 만드는 중…</div>
-    <div id="choices" class="choices"></div>
-    <div id="feedback" class="feedback">
-      <b id="feedbackTitle"></b>
-      <div id="explain" class="explain"></div>
+    <div class="question" id="qtext"></div>
+    <div class="choices" id="choices"></div>
+    <div class="feedback" id="feedback">
+      <b id="ft"></b><div class="explain" id="fx"></div><div class="src" id="fs"></div>
     </div>
     <div class="controls">
-      <button class="ctrl" id="again">이 문제 다시</button>
-      <button class="ctrl primary" id="next">다음</button>
+      <button class="ctrl" id="restart">이 문장 처음부터</button>
+      <button class="ctrl primary" id="next">다음 문제</button>
     </div>
-    <div class="notice">한 문장에 빈칸이 여러 개이면 첫 빈칸부터 순서대로 풉니다. 문장의 모든 빈칸을 끝내면 다음 문장은 전체 문제은행에서 무작위로 선택됩니다.</div>
+    <div class="notice" id="notice"></div>
   </section>
 </main>
 </div>
 
 <div class="modal" id="modal">
   <div class="sheet">
-    <h2>AI 4지선다 설정</h2>
-    <p>네 PDF의 원문을 그대로 사용하고, 현재 빈칸 하나에 대한 ①②③④ 선택지와 정답·간단한 해설을 AI가 생성하도록 연결할 수 있습니다.</p>
-    <div class="api">
-      <input id="apiKey" type="password" placeholder="OpenAI API 키 입력">
-      <button class="close" id="close">닫기</button>
-    </div>
-    <button class="save" id="save">이 기기에 저장</button>
-    <p>개인용 앱이라도 API 키는 웹페이지에 직접 노출될 수 있으므로, 완성 배포판은 서버 중계 방식으로 바꾸는 것이 안전합니다.</p>
+    <h2>설정 / 정답 업데이트</h2>
+    <p>나중에 새 정답 파일을 받으면 <b>answers.json</b> 또는 <b>정답_업데이트용.csv</b>를 교체할 수 있습니다. 지금은 브라우저에서 직접 정답 JSON을 가져와 즉시 반영할 수도 있습니다.</p>
+    <label class="dark" for="answerFile">정답 JSON 가져오기</label>
+    <input id="answerFile" type="file" accept=".json,application/json">
+    <button id="exportBtn">현재 정답 데이터 내보내기</button>
+    <button id="clearStats">오답/통계 초기화</button>
+    <button id="closeModal">닫기</button>
   </div>
 </div>
 
 <script>
-const BANK = [{"id": "1", "text": "사실인 관습은 [        ]때(일때), [        ]이 될 수 있다.", "blankCount": 2}, {"id": "2", "text": "후순위 상속자는?", "blankCount": 0}, {"id": "3", "text": "특별 실종기간은?          // 보통 실종기간은?", "blankCount": 0}, {"id": "4", "text": "제한 능력자의 속임수란?", "blankCount": 0}, {"id": "5", "text": "본인의사에 반하여 할 수 없는 심판은?\n               할 수 있는 심판은?", "blankCount": 0}, {"id": "6", "text": "법원의 직권 조사사항 3 가지\n①.\n②\n③", "blankCount": 0}, {"id": "7", "text": "상대방 입증책임 4가지\n①\n②\n③\n④", "blankCount": 0}, {"id": "8", "text": "신의성실의 원칙 4가지와 2가지 의무", "blankCount": 0}, {"id": "9", "text": "태아를 이미 출생한 것으로(권리능력인정) 보는 4가지\n①\n②\n③\n④", "blankCount": 0}, {"id": "10", "text": "절대적 무효일때 인정되지 않는 것 3가지\n①.\n②\n③", "blankCount": 0}, {"id": "11", "text": "권리남용이 인정될 때 권리는?", "blankCount": 0}, {"id": "12", "text": "종물이 아닌 3가지\n①.\n②\n③", "blankCount": 0}, {"id": "13", "text": "1필 토지에 분필절차를 거치지 않는 경우라도 [    ]을 설정할 수 있다.", "blankCount": 1}, {"id": "14", "text": "수목 -> [.         ]에게 귀속\n     농장물 -> [.        ]에게 귀속", "blankCount": 2}, {"id": "14-1", "text": "수확되지 않는 농작물 소유권 취득 방법은?", "blankCount": 0}, {"id": "15", "text": "천연과실 - 물건의 [.         ]\n     법정과실 - 물건의 [.        ]", "blankCount": 2}, {"id": "16", "text": "매매계약후 목적물로부터 생긴 과실을 매수인에게 귀속시키기 위한 조건은?", "blankCount": 0}, {"id": "17", "text": "유효한 법률행위 목적 4가지\n①\n②\n③\n④", "blankCount": 0}, {"id": "18", "text": "반사회적 법률행위 판단시기는? [O] [.                 ]이다.\n                      [X] [.               ]가 아니다.", "blankCount": 2}, {"id": "19", "text": "반사회적 법률행위에 해당하면 [①.                ②           ]에 해당한다.", "blankCount": 0}, {"id": "20", "text": "불공정한 법률행위 판단하는 4요소\n①\n②\n③\n④", "blankCount": 0}, {"id": "21", "text": "반사회적 행위에 해당하지 않는 것 6가지 (유효한 법률행위인 것)\n    ①\n    ②\n    ③\n    ④\n    ⑤\n    ⑥", "blankCount": 0}, {"id": "22", "text": "의사표시의 규정이 적용되지 않는 2가지\n\n①\n②", "blankCount": 0}, {"id": "23", "text": "진의아닌 의사표시는 [.              ]와 [.          ]의 불일치 이며, 표의자는 [.        ]하\n    는 유효한 의사표시이다. 단, [.                     ]때에는 무효로 한다.", "blankCount": 4}, {"id": "24", "text": "의사표시 취소는 [.       ] 할 수 없다. ([.           ]되며, [.         ] 아니다.)", "blankCount": 3}, {"id": "25", "text": "통정허위표시에서 “보호받는 제 3자가 아닌 경우” 5가지 (무효로서 제 3자에게 대항할 수 있는 경우)\n①\n②\n③\n④\n⑤", "blankCount": 0}, {"id": "26", "text": "통정허위표시에 해당하여 무효인 법률행위는 [.        ]에 해당하지\n    않는다.", "blankCount": 1}, {"id": "27", "text": "[.   ]와 [.     ]는 불공정한 법률행위규정을 적용하지 아니한다.", "blankCount": 2}, {"id": "28", "text": "착오에 의한 의사표시 성립 요건 5가지\n①\n②\n③\n④\n⑤", "blankCount": 0}, {"id": "29", "text": "[.      ]는 중요부분 착오에 해당하지 않는다.", "blankCount": 1}, {"id": "30", "text": "중과실에 해당하는 것은?\n           해당하지 않는 것은?", "blankCount": 0}, {"id": "31", "text": "사기에 의한 취소요건 4가지는?\n①\n②\n③\n④", "blankCount": 0}, {"id": "32", "text": "2단계의 고의란?\n\n①.            ②", "blankCount": 0}, {"id": "33", "text": "부작위적 기망행위에 해당하는 것은?", "blankCount": 0}, {"id": "34", "text": "강박에 의한 취소 요건 4가지\n①\n②\n③\n④", "blankCount": 0}, {"id": "35", "text": "강박으로 의사결정 자유를 완전히 박탈 => [.                  ]\n                     제한된 상태 => [.           ]", "blankCount": 2}, {"id": "36", "text": "제 3자의 사기, 강박에서 제 3자에 해당 => [.           ]\n                  제 3자에 해당 하지 않음 => [.              ]", "blankCount": 2}, {"id": "37", "text": "대리인은 [.       ]을 요하지 아니한다.", "blankCount": 1}, {"id": "38", "text": "대리인이 수인인 경우 [.          ]가 원칙이다.", "blankCount": 1}, {"id": "39", "text": "대리인이 현명하지 않으면? 본인은 [.           ]\n                     법률행위는 [.           ]", "blankCount": 2}, {"id": "40", "text": "대리권의 범위를 정하지 않는 경우 대리인이 할 수 있는 3가지 행위\n①\n②\n③", "blankCount": 0}, {"id": "41", "text": "자기 계약 쌍방대리가 가능한 예외 2가지\n①\n②", "blankCount": 0}, {"id": "42", "text": "복대리인은 [.         ]이 아니다.", "blankCount": 1}, {"id": "43", "text": "임의 대리인은 [.       ]이 없다. 단, 본인의 [.   ] 또는 [.   ]가 있을 때 가능하\n    다.", "blankCount": 3}, {"id": "44", "text": "[.         ]의 규정도 복대리에 적용가능", "blankCount": 1}, {"id": "45", "text": "대리권 소멸 사유 6가지?\n①\n②\n③\n④\n⑤\n⑥", "blankCount": 0}, {"id": "46", "text": "본인의 “묵시적 추인(승낙)”에 해당하지 않는 3가지\n①\n②\n③", "blankCount": 0}, {"id": "47", "text": "무권대리인의 무과실 책임 있는 조건 3가지\n①\n②\n③", "blankCount": 0}, {"id": "48", "text": "표현대리(대리권 수여표시) 성립 요건 2가지\n①\n②", "blankCount": 0}, {"id": "49", "text": "권한 없는 표현대리 요건 3가지\n①\n②\n③", "blankCount": 0}, {"id": "50", "text": "표현대리가 성립되면 상대방의 [.        ]을 이유로 [.      ] 할 수 없다.", "blankCount": 2}, {"id": "51", "text": "법정대리인 모가 자(子)의 소유부동산을 친오빠의 제 3자에 대한 채무담보로 근저당권 설정행위\n=> [.       ]에 해당한다.\n=> [        ]에 해당하지 않는다.", "blankCount": 2}, {"id": "52", "text": "절대적 무효에 해당하는 법률행위 5개\n①\n②\n③\n④\n⑤", "blankCount": 0}, {"id": "53", "text": "토지거래 허가구역에서 매매계약 내 [.        ]와 [.      ]는 동시이행관계가 아니다.", "blankCount": 2}, {"id": "54", "text": "일부무효는 원칙적으로 전부무효이지만, 당사자의 [.          ]로 일부무효를 할 수 있다. 이때, 당사\n    자의 [.     ]가 아니다.", "blankCount": 2}, {"id": "55", "text": "무효인 법률행위의 추인은 [.        ]로 본다.", "blankCount": 1}, {"id": "56", "text": "본인은 취소의 의사표시는 [.        ]에게 한다.", "blankCount": 1}, {"id": "57", "text": "취소권의 행사기간은 [.             ]이며, [.                  ]날로부터 [.    ]년, [.        ]날로부터\n    [.   ]년 내에 행사하여야 한다.", "blankCount": 5}, {"id": "58", "text": "부당이득 반환 청구의 행사기간은 [.                        ]로 부터 [.          ]년 이다.", "blankCount": 2}, {"id": "59", "text": "법률행위의 취소권이 행사된 그 법률행위가 불법행위에 해당하는 경우 [.                                 ]와\n    [.         ]은 [.          ] 할수 없다.", "blankCount": 3}, {"id": "60", "text": "취소할 수 있는 법률행위의 추인은 [.                        ]이다.", "blankCount": 1}, {"id": "61", "text": "법정추인 요건 3가지\n①\n②\n③", "blankCount": 0}, {"id": "62", "text": "법정추인 사유 6가지 <-> 시효이익과 차이\n①\n②\n③\n④\n⑤\n⑥", "blankCount": 0}, {"id": "63", "text": "소멸시효는 [.           ]부터 진행한다.(기산한다)", "blankCount": 1}, {"id": "64", "text": "소멸시효 기산점은 정지조건부 - [.                    ]\n                  확정기한부 - [.             ]\n                  불확정기한부 - [.                   ]\n                  선택채권 - [.             ]", "blankCount": 4}, {"id": "65", "text": "소멸시효 “기산점”은 [.                 ]이 아니다. => [.                   ] 기준으로 소멸시효 계산", "blankCount": 2}, {"id": "65-1", "text": "소멸시효 “기간”은 [.                ]이다.", "blankCount": 1}, {"id": "66", "text": "소멸시효 1년 => [.              ]\n    소멸시효 3년 => [①.                 , ②.                  ]", "blankCount": 1}, {"id": "67", "text": "주채무의 소멸시효가 연장되면 [.                              ]는 [.           ] 않는다.", "blankCount": 2}, {"id": "68", "text": "주채무의 소멸시효가 완성되면 [.                           ]는 [.            ]한다.", "blankCount": 2}, {"id": "69", "text": "소멸시효 완성에서 원용권자가 아닌자는?\n①\n②\n③", "blankCount": 0}, {"id": "70", "text": "시효“중단”사유 4가지\n①\n②\n③\n④", "blankCount": 0}, {"id": "71", "text": "소송의 [①.             , ②.                ③.                ]된 경우에는 시효중단의 효력이 없다.\n단, [.         ]이내에 [.              ]한때에는 [.                       ] 발생한다.", "blankCount": 3}, {"id": "72", "text": "최고 후 6개월 이내에 [①.                      , ②.               ③.             ]를 하지 않으면 시효중단\n    효과가 없다.", "blankCount": 0}, {"id": "73", "text": "채무자는 [.             ]부터 시효이익을 표기 할 수 있다.", "blankCount": 1}, {"id": "74", "text": "소멸시효 정지사유 1개월 [.                ]\n                  6개월 [.            ]", "blankCount": 2}, {"id": "75", "text": "[조건부 법률행위] 정지조건 -> [.                       ]\n                  해제조건 -> [.                ]", "blankCount": 2}, {"id": "76", "text": "법률행위 당시 이미 조건을 성취함(기성조건) - 정지조건 -> [.                             ]. 해제조건 ->\n    [.     ]", "blankCount": 2}, {"id": "77", "text": "법률행위 당시 이미 조건을 성취할 수 없을 (불능조건) - 정지조건 -> [.                             ]\n                                                     - 해제조건 -> [.       ]", "blankCount": 2}, {"id": "78", "text": "[.         ]은(에는) 조건을 붙일 수 없다. (단, 상대방의 동의나 이익만 주는 경우를 제외한다.)", "blankCount": 1}, {"id": "79", "text": "조건 성취 방해시 -> [.                     ]", "blankCount": 1}, {"id": "80", "text": "조건부 법률행위에서 절대적 무효가 되는 법률행위 2가지\n①           ②", "blankCount": 0}, {"id": "81", "text": "기한부 법률행위에서 시기있는 법률행위 -> [.                                 ]\n                   종기있는 법률행위 -> [.                         ]", "blankCount": 2}, {"id": "82", "text": "기한부 법률행위는 반드시 [.                ]이다. 특약으로도 [.                   ]가 불가하다.", "blankCount": 2}, {"id": "83", "text": "기한의 이익 = [.            ]으로 [.                   ]한다.", "blankCount": 2}, {"id": "84", "text": "약정 기한이익 상실 특약 2가지\n①\n②", "blankCount": 0}, {"id": "85", "text": "법인은 [.          ]를 함으로써 [.           ]하고 [.              ]가 종료될 때 [.            ]한다.\n    [.        ]했을때 바로 [.              ]하지 않는다.", "blankCount": 6}, {"id": "86", "text": "청산절차에 관한 규정은 [.              ]이다.", "blankCount": 1}, {"id": "87", "text": "청산 중 청산인은 [.           ]하지 못하지만, [.                    ]을 진다.", "blankCount": 2}, {"id": "88", "text": "재단법인의 기본재산에 관한 [.                   ]는 주무관청의 허가를 요하지 않는다.", "blankCount": 1}, {"id": "89", "text": "[①.       ], [②.         ], [③.          ]를 하려면 주무관청의 허가가 필요하다.", "blankCount": 0}, {"id": "90", "text": "사단법인에서 ‘사원자격의 득실사항’은 [.                        ]이지 [.             ]이 아니다.", "blankCount": 2}, {"id": "91", "text": "사원총회 고유권한은 정관 및 사원총회 결의로 [.                       ].", "blankCount": 1}, {"id": "92", "text": "법인의 대표권자가 아닌 2인\n①\n②", "blankCount": 0}, {"id": "93", "text": "이사의 대표권 권한제한을 [.                  ]에 기재하지 않으면 효력이 없으며, [.                  ]하지 않으\n    면 [.       ] 없다.", "blankCount": 3}, {"id": "94", "text": "법인과 이사의 법률관계는 [.                  ]이다.", "blankCount": 1}, {"id": "95", "text": "법인과 이사의 이익이 상반될 때에는 [.                   ]을 선임한다.", "blankCount": 1}, {"id": "96", "text": "법인의 청산에서 법인의 사무는 [.                 ]이 검사, 감독하고 법인의 해산은 [.                 ]이 검사,\n    감독한다.", "blankCount": 2}, {"id": "97", "text": "임시총회 소집, 법인의 사무집행, 정관의 변경, 해산 총사원의 [.                           ] [.        ]\n    [.       ] [.      ]", "blankCount": 4}, {"id": "98", "text": "이사가 없거나 결원인 경우 법원은 [.                  ]를 선임하여야 한다.", "blankCount": 1}, {"id": "99", "text": "대표자가 [.              ] 직무에 관하여 불법행위를 저질렀다면, [.            ]은 [.      ]진다.", "blankCount": 3}, {"id": "100", "text": "사단법인 [.                ] 행위가 타인에게 손해를 가한 경우, 그 사항의 의결을 집행한 사원도\n    [.        ] 법인은 [.         ]", "blankCount": 3}, {"id": "101", "text": "대표자에 의해 발생된 피해자가 [.                  ]가 있거나, [.       ]이 있을때에는 법인은\n    [.            ] 않는다.", "blankCount": 3}, {"id": "102", "text": "비법인사단의 물건은 [.                  ]이다", "blankCount": 1}, {"id": "103", "text": "총유물 관리, 처분에 해당하지 않는 2가지\n①             ②", "blankCount": 0}, {"id": "104", "text": "총유물에 관한 소송은 [.                 ]으로 당사자가 될 수 없다.", "blankCount": 1}, {"id": "105", "text": "권리능력 없는 사단의 구성원은 [.                      ] 당사자가 될 수 없다.", "blankCount": 1}, {"id": "106", "text": "청구권이라 읽지만 형성권 인 것들\n①\n②\n③\n④\n⑤\n⑥", "blankCount": 0}, {"id": "107", "text": "선의의 제 3자에게 대항할 수 있는 법률행위\n①\n②\n③\n④ .", "blankCount": 0}, {"id": "108", "text": "선의의 제 3자에게 대항할 수 없는 법률행위", "blankCount": 0}, {"id": "109", "text": "선의, 무과실의 상대방에 대항할 수 없는 법률행위?", "blankCount": 0}, {"id": "110", "text": "선, 악을 불문하고 제 3자에게 대항할 수 없는 법률행위?", "blankCount": 0}, {"id": "111", "text": "무권대리에서 상대방의 확답촉구권은 [.              ] 행사 할 수 있다.", "blankCount": 1}, {"id": "112", "text": "동시사망이 [.      ] 되는 경우라도 [.                ]인정된다. //\n   동시사망이 [.       ]되어야만.     => x오답", "blankCount": 3}, {"id": "113", "text": "재산관리인의 권한초과행위에 대해 법원은 [.                    ]하는 방법으로 [.          ]할수있\n   다.", "blankCount": 2}, {"id": "114", "text": "법원이 선임한 재산관리인은 법원의 [.             ]까지 권한은 종료되지 않는다.", "blankCount": 1}, {"id": "115", "text": "실종선고효과는 [.      ]시에 [.            ]된다. [.             ]이 아니다.", "blankCount": 3}, {"id": "116", "text": "부동산 이중매매 성립요건은 [.           ]이후 부터, [.            ]하여 매수해야 한다.", "blankCount": 2}, {"id": "117", "text": "재산처분행위를 법정대리인이 허락해주었다면 처분행위 전 법정대리인의 대리권은 [.                          ]", "blankCount": 1}, {"id": "118", "text": "불공정한 법률행위에서 매매계약 무효는 [.               ] 가능, [.          ] 불가능", "blankCount": 2}, {"id": "119", "text": "형사소송에서는 [.      ]을 하여야 [.            ]가 중단된다\n   형사소송은 민사소송과 달라 형사소송이 제기되었다고 해서 반드시 [.                        ] 되는 것은 아니다.", "blankCount": 3}, {"id": "120", "text": "법인설립 시 이사의 성명과 주소는 [.            ] 이다.", "blankCount": 1}, {"id": "121", "text": "다수의 이사는 법인 사무에 관하여 [.          ] 한다.", "blankCount": 1}, {"id": "122", "text": "", "blankCount": 0}, {"id": "123", "text": "", "blankCount": 0}, {"id": "124", "text": "", "blankCount": 0}, {"id": "125", "text": "", "blankCount": 0}, {"id": "126", "text": "", "blankCount": 0}, {"id": "127", "text": "", "blankCount": 0}, {"id": "128", "text": "", "blankCount": 0}, {"id": "129", "text": "", "blankCount": 0}, {"id": "130", "text": "", "blankCount": 0}, {"id": "131", "text": "", "blankCount": 0}, {"id": "132", "text": "", "blankCount": 0}, {"id": "133", "text": "", "blankCount": 0}, {"id": "134", "text": "", "blankCount": 0}, {"id": "135", "text": "", "blankCount": 0}, {"id": "136", "text": "", "blankCount": 0}, {"id": "137", "text": "", "blankCount": 0}, {"id": "138", "text": "", "blankCount": 0}, {"id": "139", "text": "", "blankCount": 0}, {"id": "140", "text": "", "blankCount": 0}, {"id": "141", "text": "", "blankCount": 0}, {"id": "142", "text": "", "blankCount": 0}, {"id": "143", "text": "", "blankCount": 0}, {"id": "144", "text": "", "blankCount": 0}, {"id": "145", "text": "", "blankCount": 0}, {"id": "146", "text": "", "blankCount": 0}, {"id": "147", "text": "", "blankCount": 0}, {"id": "148", "text": "", "blankCount": 0}, {"id": "149", "text": "", "blankCount": 0}, {"id": "150", "text": "[.          ]와 [.                  ] 사이의 [.              ]이 이루어진 약관 조항이나, 구체적\n    계약에서 [.                ]는 약관에 해당되지 않는다.", "blankCount": 4}, {"id": "151", "text": "약관의 [1.          2.              ]를 위반하였을 때에는 [.                ]만 계약내용을 주장할 수\n    있다.", "blankCount": 1}, {"id": "152", "text": "약관의 [.               ], [.               ] 하였다는 점의 입증책임은 [.             ] 에게 있다.", "blankCount": 3}, {"id": "153", "text": "약관의 해석통제 3가지\n①\n②\n③", "blankCount": 0}, {"id": "154", "text": "약관의 일부가 무효인 경우, 원칙적으로 [.                         ] 이다.", "blankCount": 1}, {"id": "155", "text": "무효조항에 근거하여 고객이 이미 급부하였다면, [.                              ] 대상이지, [.           ]가\n    아니다.", "blankCount": 2}, {"id": "156", "text": "청약은 [.               ] 이다.", "blankCount": 1}, {"id": "157", "text": "청약의 의사표시는 [.                      ] 에게, 승낙의 의사표시는 [.               ] 에게만 한다.", "blankCount": 2}, {"id": "158", "text": "교차청약은 [.                     ] 계약이 성립한다.", "blankCount": 1}, {"id": "159", "text": "교차청약에서 [.                     ] 계약은 [.           ] 이다.\n    일반청약에서 [.                      ] 계약은 [.           ] 이다.", "blankCount": 4}, {"id": "160", "text": "청약이 상대방에게 [.                   ], [.                             ]. 경우, 청약의 효력에\n    [.         ].", "blankCount": 3}, {"id": "161", "text": "청약이 상대방에게 [.                   ] 까지는 [.                          ] 있다.", "blankCount": 2}, {"id": "162", "text": "[.         ]가, 승낙기간 내 [.                          ]를 [.                   ]면, 효력을 잃는다.", "blankCount": 3}, {"id": "163", "text": "[.           ]가 연착된 때에는, [1.                            2.            ]를 하지 않으면 [.\n    ] 본다.", "blankCount": 2}, {"id": "164", "text": "연착의 승낙은 [.                ]를 한 때에 [.                             ]로 본다.", "blankCount": 2}, {"id": "165", "text": "승낙기간 경과 후 도달 O —> [.                        ]\n                  도달 X —> [.                    ]", "blankCount": 2}, {"id": "166", "text": "승낙기간을 정하지 않았다면, [.                             ]내, [.                ]를 받지 못하면 효력을 잃는다.", "blankCount": 2}, {"id": "167", "text": "승낙자가 조건을 붙이거나, 변경 또는 일부승낙 한 경우, [.                                         ]와 동시에 [.\n    ] 으로 본다.", "blankCount": 2}, {"id": "168", "text": "계약 준비과정에서 부당한 중도파기는 [.                                       ]\n    이유없는 계약체결 거부 [.                         ]\n    당사자의 의사 불합치 [.                    ]\n    원시적 불능 계약 [.                ]", "blankCount": 4}, {"id": "169", "text": "신뢰 손해에 해당하지 않는 2가지 경우\n    ①\n    ②", "blankCount": 0}, {"id": "170", "text": "동시이행 항변권 요건 3가지\n①\n②\n③", "blankCount": 0}, {"id": "171", "text": "선이행의무자가 선채무이행을 하지 않더라도, [.                   ] 하였다면, [.              ] 있다.", "blankCount": 2}, {"id": "172", "text": "동시이행항변권의 존재만으로 [.                 ]다.", "blankCount": 1}, {"id": "173", "text": "동시이행항변권이 인정되지 않는 2가지\n①\n②", "blankCount": 0}, {"id": "174", "text": "상대방이 [.         ] 때에는, [.         ] 에도, [.                ] 가진다.", "blankCount": 3}, {"id": "175", "text": "채무자는 [.         ]을 [.          ] 하여야 효력이 발생된다.\n    —> [.             ] 할 수 있다.", "blankCount": 3}, {"id": "176", "text": "동시이행항변권은 동시이행관계에 있더라도 지급기일 이후 [.                          ]는 진행된다.", "blankCount": 1}, {"id": "177", "text": "[.        ] 으로 상대방의 [.           ]은 소멸되지 않는다.", "blankCount": 2}, {"id": "178", "text": "상대에게 [.          ]을 청구하려면, [.            ]을 [.              ] 으로 해야한다.", "blankCount": 3}, {"id": "179", "text": "금전소비대차에서 변제와 [.               ]는 동시이행관계에 있고,\n    [.         ]은 동시이행관계가 아니다.", "blankCount": 2}, {"id": "180", "text": "선이행 의무는?\n\n     중도금 vs 소유권이전등기\n     임차권등기말소 vs 임대차 보증금 반환\n     담보반환의무 vs 채무자 변제", "blankCount": 0}, {"id": "181", "text": "[.          ] 서로다른 경우, [.          ]는 성립되지 않는다.", "blankCount": 2}, {"id": "182", "text": "근저당권자의 [.             ]와 낙찰자의 [.         ]는 동시이행관계가 아니다.", "blankCount": 2}, {"id": "183", "text": "상대방 일방이 계약체결을 믿고 지출한 비용은 [.                ] 이다.", "blankCount": 1}, {"id": "184", "text": "계약체결상 과실책임요건 3가지\n          ①\n          ②\n          ③", "blankCount": 0}, {"id": "185", "text": "계약 체결전 하자로 인하여 발생한 손해배상 범위는 [.                ] 이지, [.     ]가 아\n    니다.", "blankCount": 2}, {"id": "186", "text": "계약체결상 과실로 보지 않는 경우 4가지\n    ①\n    ②\n    ③\n    ④", "blankCount": 0}, {"id": "187", "text": "계약 체결 후 이행단계에서 하자가 있을 때, 채무지의 귀책사유가\n\n    있다면 —> [.            —>1.          2.            ]\n\n    없다면 —> [.            —>                 ]", "blankCount": 0}, {"id": "188", "text": "채무불이행에서 고의 또는 과실의 입증 책임은 [.                            ]이다.\n    [.          ]가 [.             ]을 주장, 증명해야 한다.", "blankCount": 3}, {"id": "189", "text": "이행보조자는 채권자의 관계에서 [.                        ]을 진다. [.              ]을 지지 않는다.", "blankCount": 2}, {"id": "190", "text": "이행보조자의 [.                  ]에 대해 채무자가 [.                    ] 있다면, 유효하다.\n    단, [.           ]은 [.            ] 있어도 효력이 없다.", "blankCount": 4}, {"id": "191", "text": "채무자가 이행보조자에게 [.                  ]를 증명해도 [.                    ] 한다.", "blankCount": 2}, {"id": "192", "text": "채무자의 [.                ]과 이행보조자의 [.                 ]은 [.              ] 이다.", "blankCount": 3}, {"id": "193", "text": "채무불이행 유형 4가지\n①\n②\n③\n④", "blankCount": 0}, {"id": "194", "text": "[.          ]와 [.             ]이 있더라도, 이행지체책임을 진다.\n    단, [.           ] 만으로는 지체책임을 부담한다고 할 수 없다.", "blankCount": 3}, {"id": "195", "text": "이행지체 후 채무자의 이행이 채권자에게 이익이 없을 경우, 채권자는 [.                                   ] 하고 [.\n    ]을 청구 할 수 있다.", "blankCount": 2}, {"id": "196", "text": "금전채무불이행의 손해배상에서 채권자는 [.                           ] 아니하고, 채무자는 [.           ]\n  못한다.\n  —> 채권자는 [.               ]는 할 수 있다.", "blankCount": 3}, {"id": "197", "text": "일반적인 채무불이행의 손해배상에서 채권자는 [.                           ]과 [.          ]을 해야 한다.", "blankCount": 2}, {"id": "198", "text": "지연손해금은 [.             ] 이지, [.           ]가 아니다.\n  —> [.          ] 짜리. [                  ]가 아니다.", "blankCount": 4}, {"id": "199", "text": "지연손해금 약정이 있다면, [.                ]\n   지연손해금 약정이 없다면, [.                  ]\n   [.             ]면, [.              ]", "blankCount": 4}, {"id": "200", "text": "확정기한부 채무의 이행지체 시기는 [.                    ] 이다.", "blankCount": 1}, {"id": "201", "text": "증권적채권은 이행기가 도래했더라도, [.                    ], [.              ] 하지 않으면 이행지체\n  책임을 지지 않는다.", "blankCount": 2}, {"id": "202", "text": "동시이행관계에서 [.               ]한, 이행지체 책임이 없다.", "blankCount": 1}, {"id": "203", "text": "불확정기한부 채무의 이행지체 시기는 [.                     ] 이다.", "blankCount": 1}, {"id": "204", "text": "이행기 정함이 없는 채무 4가지\n  ①\n  ②\n  ③\n  ④", "blankCount": 0}, {"id": "205", "text": "기한 정함이 없는 채무는 [.                 ] 부터 이행지체 책임을 진다.", "blankCount": 1}, {"id": "206", "text": "불법행위에 기한 손해배상채무는, [.            ] 이행지체책임을 진다.", "blankCount": 1}, {"id": "207", "text": "관습에 의하여 승낙의 표시가 필요하지 않는경우, 계약은 승낙자의 의사표시로 [.                       ]\n    성립한다.", "blankCount": 1}, {"id": "208", "text": "[.       ] 만이 동시이행관계에 있다.", "blankCount": 1}, {"id": "209", "text": "이행불능에서 전보배상액은 [.            ] 이고, 소멸시효는 [.               ] 진행된다.", "blankCount": 2}, {"id": "210", "text": "제2매수인에게 처분한 가격이 통상가격을 넘는 경우 [.                  ]이 제1매수인에 대한 배상액\n    이다\n    이때, [.      ]과 상대방의 [.           ]는 동시이행 관계이다.", "blankCount": 3}, {"id": "211", "text": "[.       ]으로 계약의 목적을 달성할 수 없다면, [.                ] 이다.", "blankCount": 2}, {"id": "212", "text": "후발적 불능이 채무자의 [.          ]가 아닌 [.            ]나 [.          ] 일때, 채권\n    자는\n    [.       ]을 행사하여 이익의 전부를 청구할 수 있다.\n    단, [.                    ] 한다.", "blankCount": 5}, {"id": "213", "text": "대상청구권 행사 요건 4가지\n\n①\n②\n③\n④", "blankCount": 0}, {"id": "214", "text": "대상청구권을 행사한 채권자는 [.                       ]을 [.                       ] 취득하지 못한다.\n    채무자에게 [.            ] 또는 [.                    ] 를 구할 수 있다.", "blankCount": 4}, {"id": "215", "text": "이행불능 시 채권자는 [.                       ] 를 할 수 있다.", "blankCount": 1}, {"id": "216", "text": "‘이행불능’ 과 그렇지 않은 것 (O.X)\n    매매대상인 권리가 타인에게 귀속되어 있음 [.                                   ]\n    제3자가 가압류,가처분,가등기가 경료된 경우[.                                      ]\n    채무 변제 자력이 없는 경우 [.                    ]\n    강제경매를 신청해서 그 절차가 진행중 [.                             ]\n    매도인의 귀책사유로 소유권이전등기 의무를 하지 않음[.                                         ]\n    부동산 이중매매에서 매매계약체결[.                            ]\n    소유권이전등기가 상속에 의한 것[.                        ]\n    부동산 이중매매에서 소유권이전등기 경료[.                                 ]\n    압류, 등기, 처분 명령 [.              ]", "blankCount": 9}, {"id": "217", "text": "이행거절은 [                   ] 의사표시가 [.                                ]으로 평가되어야 한다.", "blankCount": 2}, {"id": "218", "text": "이행거절에 따른 손해배상액 산정은 [.                              ] 이다.", "blankCount": 1}, {"id": "219", "text": "이행거절을 이유로 해제권을 행사하는 경우에는 [.                                         ] 를 기준으로 이행거절 의사를 판\n    단한다.", "blankCount": 1}, {"id": "220", "text": "이행거절 시 채권자는 [.                    ]과 [.                     ]을 행사할 수 있다.\n    [.         ] 와 [.             ] 도 가능하다.", "blankCount": 4}, {"id": "221", "text": "손해배상 청구권 2가지 유형\n①\n②", "blankCount": 0}, {"id": "222", "text": "불법행위 책임은 [.             ]가 입증한다.", "blankCount": 1}, {"id": "223", "text": "손해배상에서 특별손해는 [.              ] 이다.", "blankCount": 1}, {"id": "224", "text": "특별손해에서 채무자가 특별한사정을 알았거나 알 수 있었다는 점은\n    [.         ] 기준으로 판단한다.\n    [.         ] 기준이 아니다.", "blankCount": 2}, {"id": "225", "text": "이행지체에 따른 손해배상액 산정은 [.                   ]이지, [.           ]가 아니다.", "blankCount": 2}, {"id": "226", "text": "채권자에게 과실이 있는 경우, 법원은 [.                  ]하는 [.               ] 이다.", "blankCount": 2}, {"id": "227", "text": "과실비율에 대한 당사자 주장으로 [.                  ] 할 수 없다.", "blankCount": 1}, {"id": "228", "text": "과실상계 주장 안되는 5가지\n①\n②\n③\n④\n⑤", "blankCount": 0}, {"id": "229", "text": "소송상 청구액과 과실상계가 적용된 손해액 중 [.                        ]을 인용한다.", "blankCount": 1}, {"id": "230", "text": "채권자에게 [.           ]과 [.              ]가 모두 발생한 경우 [.                 ]를 먼저 한\n    다.", "blankCount": 3}, {"id": "231", "text": "채무자의 손해배상액 예정은 [.               ][.               ][.           ] 이 안된다.\n    단 [.                 ]은 가능하다.", "blankCount": 4}, {"id": "232", "text": "손해배생액의 예정은 채무불이행에 [.                                  ]가 있어야한다.", "blankCount": 1}, {"id": "233", "text": "손해배상예정액에는 [.                          ]와 [.                 ]가 포함되어 있다.\n    단, [.          ] 까지 예정한 것이라고 볼 수 없다.", "blankCount": 3}, {"id": "234", "text": "채권자가 채권의 목적 가액 전부를 손해배상으로 받은 경우, 채무자는 [.                                        ]에 관하여\n    [.           ] 한다.", "blankCount": 2}, {"id": "235", "text": "채권자는 [.               ][.                     ]증명해야 예정배상액을 청구할 수 있다.", "blankCount": 2}, {"id": "236", "text": "[.           ]에서 하자보수금이 손해예정액을 초과하는 경우, [.                                    ] 할 수 있다.", "blankCount": 2}, {"id": "237", "text": "법원은 손해배상예정액이 부당하게 과다한지 판단여부는 [.                                      ] 기준으로 판단한다.", "blankCount": 1}, {"id": "238", "text": "손해배상액 예정 2가지\n①\n②", "blankCount": 0}, {"id": "239", "text": "위약금 [.              ] —> [.                      ]\n     위약금 [.              ] —> [.                      ]", "blankCount": 4}, {"id": "240", "text": "채권자 지체 중 [.                    ]이 없으면 채무불이행으로 인한 [.                       ]", "blankCount": 2}, {"id": "241", "text": "채무자는 채권자지체를 이유로 [.                                ] 또는 [.          ]를 할 수 없다.\n    단, 채권자가 [.                  ] 또는 [.                   ]를 위반하여 계약목적을 달성할 수 없을 때\n    [.           ] 가능하다.", "blankCount": 5}, {"id": "242", "text": "쌍무계약에서 채권자수령지체 중 쌍방의 책임없는 사유로 채무자 급부가 불능된 경우\n    채무자의 급부의무 —> [.                        ]\n    채권자의 반대급부의무 —> [.                             ]", "blankCount": 2}, {"id": "243", "text": "해제권은 형성권으로 [.              ]이고, 단독행위로써 [.                 ] 없다.", "blankCount": 2}, {"id": "244", "text": "이행지체에 따른 해제는 [.               ] 해제할 수 있고,\n   이행거절과 이행불능에 따른 해제는 [.                 ]해제할 수 있다.", "blankCount": 2}, {"id": "245", "text": "합의해제로 [.                ] 해할 수 없다.", "blankCount": 1}, {"id": "246", "text": "합의해제 후 해제된 계약을 부활시키는 약정은 [.                       ] 하다.", "blankCount": 1}, {"id": "247", "text": "매매계약에서 매수인이 중도금, 잔금지급기일까지 지급하지 않으면 자동해제 되는 약정을 하였을 때\n\n  중도금 지급기일에 지급하지 않으면 —> [.                 ]\n\n  잔금 지급기일에 지급하지 않으면 —> [.                         ]", "blankCount": 2}, {"id": "248", "text": "당사자가 수인인 경우 해제, 해지권 행사는 [.                  ]한다.", "blankCount": 1}, {"id": "249", "text": "원상회복청구권은 [.              ] 으로 [.            ]이 아니다.", "blankCount": 2}, {"id": "250", "text": "원상회복청구권에서 [.               ]는 허용되지 않는다.\n\n   250-1 원상회복청구권에서 이자는 [.                ] 부터 이자를 가하여야 한다.\n  [.           ] 부터가 아니다.", "blankCount": 3}, {"id": "251", "text": "이자의 법정성질은 [.              ] 성질이다.", "blankCount": 1}, {"id": "252", "text": "대리행위에 의해 발생된 법률행위의 원상회복 의무자는\n  [.           ]이다.\n  [.           ]이 아니다.", "blankCount": 2}, {"id": "253", "text": "[.         ]는 원상회복대상에 해당되지 않는다.\n    [.         ]은 원상회복대상에 해당된다.", "blankCount": 2}, {"id": "254", "text": "원상회복이 불능된 경우 [.                 ] 한다.", "blankCount": 1}, {"id": "255", "text": "계약의 해제,해지는 [.                 ]에 영향을 미치지 아니한다.", "blankCount": 1}, {"id": "256", "text": "[.         ][.          ][.                  ]모두 제3자에게 대항할 수 없다.\n    해제 전 발생한 제3자 —> [.               ]\n    해제 후 발생한 제3자 —> [.               ]", "blankCount": 5}, {"id": "257", "text": "계약의 당사자는 합의해제 전 저당권을 취득한 제3자에게 [.                        ] 주장 할 수 없다.", "blankCount": 1}, {"id": "258", "text": "해제에서 선,악불문하고 보호되는 제3자 6가지\n\n①\n②\n③\n④\n⑤\n⑥", "blankCount": 0}, {"id": "259", "text": "해제에서 보호되지 않은 제3자 3가지\n\n①\n②\n③", "blankCount": 0}, {"id": "260", "text": "해제권은 [.           ][.                ]이다.", "blankCount": 2}, {"id": "261", "text": "해지권은 [.          ][.                 ] 이다.", "blankCount": 2}, {"id": "262", "text": "계약해지 전 발생한 당사자간 채무는 [.                         ].", "blankCount": 1}, {"id": "263", "text": "채무자위험부담주의 요건 2가지, 1가지 효과\n①\n②\n    효과:", "blankCount": 0}, {"id": "264", "text": "채무자의 책임없는 사유로 이행불능된 경우 채권자는 [.                                 ].", "blankCount": 1}, {"id": "265", "text": "채무자위험부담주의에서 제3자의 화재로 목적물이 멸실되었을 때,\n    매도인 —> [.               ] 에게 [.            ]\n    매수인 —> [.               ] 에게 [.            ], [.            ]", "blankCount": 5}, {"id": "266", "text": "채권자 위험부담주의는 [.                    ]로 이행할 수 없게된 경우\n    채무자는 [.                ] 에게 [.            ]를 할 수 있다.\n    —> 채무자는 [.                        ] 한다.\n    단, 채무자는 [.               ]은 [.            ] 에게 [.                    ]한다.", "blankCount": 7}, {"id": "267", "text": "채권자의 수령지체 중 당사자의 쌍방의 책임없는 사유로 이행할 수 없게 된 때에 해당하기 위해서는\n    [.           ] 또는 [.              ]이 필요하다.", "blankCount": 2}, {"id": "268", "text": "채무자는 채무자위험부담주의에서 채권자에게 [.                           ]을 [.                   ]다.", "blankCount": 2}, {"id": "269", "text": "제3자를 위한계약 2가지\n①\n②", "blankCount": 0}, {"id": "270", "text": "제3자를 위하지 않는 계약 2가지\n①\n②", "blankCount": 0}, {"id": "271", "text": "계약성립당시 ~ 수익의 의사표시전 까지 [.                    ]는 [.             ]. 가 없다.", "blankCount": 2}, {"id": "272", "text": "낙약자와 요약자 사이의 법률관계가 무효되어 소급효가 된다면,\n    낙약자는 제3자를 상대로 —> [.               ]\n    요약자를 상대로 —> [.            ]", "blankCount": 2}, {"id": "273", "text": "제3자에게 직접채무를 부담시키는 계약은 [.                      ] 이다.", "blankCount": 1}, {"id": "274", "text": "요약자, 낙약자간 기본계약 해제 전, 수익자가 [.                     ] 맺고 [.          ] 하였다면,\n    [.        ] 해당한다.", "blankCount": 3}, {"id": "275", "text": "제3자를 위한 계약 성립요건 2가지\n①\n②", "blankCount": 0}, {"id": "276", "text": "[.        ]는 제3자가 [.              ]에게 [.              ]요건이다\n    —> [.         ]청구권을 갖는다.", "blankCount": 4}, {"id": "277", "text": "제3자의 [.           ]는 [.           ]이다.", "blankCount": 2}, {"id": "278", "text": "낙약자는 제3자에게 [.             ]를 [.              ] 할 수 있다.\n    기간 내 [.          ]면, [.           ]본다.", "blankCount": 4}, {"id": "279", "text": "제3자의 권리는 요약자-낙약자간 [.                    ]경우 또는 [.            ]가 있는 경우 변경,\n    소멸 시킬 수 있다.", "blankCount": 2}, {"id": "280", "text": "제3자를 위한 계약에서\n    요약자와 수익자 사이에 법률관계 취소\n    —> [.       —>.                                ]\n    요약자와 수익자사이에 대가관계 효력상실\n    —> [.       —>.                                ]", "blankCount": 0}, {"id": "281", "text": "낙약자의 법적구제책으로 [.                    ]시, [.            ] 이유로\n    언제든지 [.              ] 할 수 있다.\n    이때 [.          ] 필요하지 않다.\n    단 [.         ]이 아닌 [.               ]로는 제3자에게 대항할 수 없다.", "blankCount": 6}, {"id": "282", "text": "낙약자는 [.                  ] 항변으로 제3자에게 대항할 수 있고,\n    [.                ] 항변으로 제3자에게 대항할 수 없다.", "blankCount": 2}, {"id": "283", "text": "요약자의 법적구제책으로 [.                    ] 이유로 [.              ]와 [.     ]를 할 수\n    있다.\n    이때, [.            ]는 낙약자에게 [.                 ] 할 수 있지만, [.      ] 할 수 없다.", "blankCount": 6}, {"id": "284", "text": "낙약자가 수익자에게 채무이행 후\n\n    기본계약이 —> 무효, 취소, 해제된 경우 —> [.                 —>.      ] 에게\n\n    대가관계가 —> 무효, 취소, 해제된 경우 —> [.                 —>.      ] 에게\n\n    [.         ] 또는 [.               ]를 할 수 있다.", "blankCount": 2}, {"id": "285", "text": "증여의 유형 2가지\n①\n②", "blankCount": 0}, {"id": "286", "text": "증여는 채권계약이기 때문에 [.                            ]도 증여의 목적으로 할 수 있다.", "blankCount": 1}, {"id": "287", "text": "증여가 무상계약 일때 증여자는 [.                               ]을 부담하지 않는다.\n    —> 부담부증여에서는 [.                      ]을 진다.", "blankCount": 2}, {"id": "288", "text": "서면에 의하지 않은 증여는 [.                          ] 있다.\n    이때, [.           ]을 적용하지 않는다.", "blankCount": 2}, {"id": "289", "text": "서면을 작성한 증여는 [.                             ]다.", "blankCount": 1}, {"id": "290", "text": "수증자가 [.              ] 하거나, 직계혈족에게 [.                          ]한 경우, 증여자는 [.\n    ]를 할 수 있다.\n    —> 해제원인 발생 후 [.                    ]내에 행사하지 않으면 소멸한다.", "blankCount": 4}, {"id": "291", "text": "[.           ]는 반드시 [.                         ]할 것을 요구하지 않는다.", "blankCount": 2}, {"id": "292", "text": "증여자가 [.             ]한 경우 소멸한다.", "blankCount": 1}, {"id": "293", "text": "증여에서 계약을 해제하는 경우 이미 이행한 부분은\n    일반증여 —> [.                ]\n    부담부증여 —> [.                   ]", "blankCount": 2}, {"id": "294", "text": "서면명칭이 매매계약서 일지라도 [.                                ] 서면이라면, 서면에 의한 증여에 해당한다.", "blankCount": 1}, {"id": "295", "text": "부담부증여에서 수증자가 자기부담을 이행한 경우, 각 당사자는 [.                                    ] 이유로\n    [.           ] 할 수 없다.", "blankCount": 2}, {"id": "296", "text": "매매계약체결당시 매도인과 매수인이 누구인지 [.                                       ]한다.\n    반대로 [.            ]과 [.                    ]는 [.           ]다.", "blankCount": 4}, {"id": "297", "text": "매매계약 완결권은 [.                      ]부터 [.                ]이다.", "blankCount": 2}, {"id": "298", "text": "타인의권리매매에서 목정물이 [.                      ] [.             ]인 경우, [.           ]매수인\n    은 [.         ]매도인에게 [.                 ]을 청구할 수 [.                  ]", "blankCount": 6}, {"id": "299", "text": "계약금계약은 [.           ]계약이지, [.                    ]계약이 아니다.", "blankCount": 2}, {"id": "300", "text": "당사자간 별도의 특약이 없는 한 계약금은 [.                        ]으로 추정된다.\n     [.            ] 이 아니다.", "blankCount": 2}, {"id": "301", "text": "계약금계약에서 [.            ]은 [.                   ]으로 추정한다.", "blankCount": 2}, {"id": "302", "text": "계약금을 위약벌로 약정한 경우 계약금과 별도로 [.                                        ]다.", "blankCount": 1}, {"id": "303", "text": "과도한 위약벌 약정은 [.                ]이지 [.                  ]이 아니다.\n    단, 과도한 손해배상액은 [.               ]이 가능하다.", "blankCount": 3}, {"id": "304", "text": "계약금 교부 후 상대방이 이행착수 할 때 까지 교부자는 [.                            ]하고, 수령자는 [.\n    ]하여 매매계약을 해제할 수 있다.", "blankCount": 2}, {"id": "305", "text": "상대방이 해약금을 받지 않는다고 해서 [.                        ]까지 할 필요는 없다.", "blankCount": 1}, {"id": "306", "text": "이행의 착수로 보지 않는 2가지\n①\n②", "blankCount": 0}, {"id": "307", "text": "계약금계약에서 교부자의 귀책사유 존재 시\n    위약금 약정이 있다면 —> [.               ] [.              ]\n    위약금약정이 없다면 —> [.                ] [.             ]", "blankCount": 4}, {"id": "308", "text": "매매계약에 필요한 비용은 [.                  ] 부담한다.", "blankCount": 1}, {"id": "309", "text": "매도인의 하자담보책임 2가지\n①\n②", "blankCount": 0}, {"id": "310", "text": "매도인의 하자담보책임에서\n    매수인은 —> [.             ]\n    매도인은 —> [.             ]", "blankCount": 2}, {"id": "311", "text": "제조물의 안정성결함으로 재산상 손해 —> [.                   ] <— [.         ]\n    제조물 그 자체에 발생한 손해              —> [.         ] <— [.         ]", "blankCount": 4}, {"id": "312", "text": "[.           ]에서는 물건의 하자에 따른 매도인의 담보책임이 적용되지 않는다.", "blankCount": 1}, {"id": "313", "text": "하자로 계약목적 달성 못하면 —> [.                 ]\n    하자가 있더라도 계약목적 달성 하면.—> [.                 ] [.        ]", "blankCount": 3}, {"id": "314", "text": "물건의 하자에서 하자담보책임은 [.                   ]이며, 그 사실을 안날로부터 [.       ]내\n    에 행사하여야 한다.\n    [.           ]과 [.            ]는 중첩적 행사가 가능하다.", "blankCount": 4}, {"id": "315", "text": "하자로 인한 확대손해 배상책임은 [.                  ]가 인정되어야 한다.", "blankCount": 1}, {"id": "316", "text": "권리의 하자 [전부] (선의)\n                    (악의)\n    권리의 하자 [일부] (선의)\n                    (악의)\n    제3자의 전세권, 저당권 행사 (선의)\n                           (악의)\n    목적물하자 [특정물, 종류물] (선의)\n                           (악의)\n    목적물하자 [수량부족, 일부멸실] (선의)\n                               (악의)", "blankCount": 0}, {"id": "317", "text": "가등기, 가압류 실행으로 소유권을 상실한 경우\n   민법[.         ]조 [.                ]이 인정된다.\n   민법[.         ]조 [.                ]이 아니다.", "blankCount": 4}, {"id": "318", "text": "매매목적물 토지에 폐기물 매립 —> 매수인이 폐기물처리비용 발생\n   매수인은 [.                      ] 또는 [.                      ]를 선택하여 행사할 수 있다.", "blankCount": 2}, {"id": "319", "text": "환매기간은, 부동산은 [.                 ], 동산은 [.                ]을 넘지 못한다.", "blankCount": 2}, {"id": "320", "text": "환매에서 매매등기와 동시에 [.                          ]를 한때에는 제3자에 대하여 효력이 있다.", "blankCount": 1}, {"id": "321", "text": "환매에서 [.             ]과 [.                  ]는 특별한 약정이 없으면 이를 상계한 것으로 본다.", "blankCount": 2}, {"id": "322", "text": "도급계약에서 수급인이 직접 건축하지 않고 이행보조자, 이행대행자를 사용할 수 [.                                ].", "blankCount": 1}, {"id": "323", "text": "건축주에게 미완성건축물을 인도받아 완공자가 완공한 경우, 그 미완성건축물이 독립한건물로 볼 수\n   있다면, [.           ]가 그 건물의 소유권을 취득한다.", "blankCount": 1}, {"id": "324", "text": "도급계약에서 보수청구권의 소멸시효 기산점은 특약이나 관습이 없을 때, [.                             ] 부터이\n   다.", "blankCount": 1}, {"id": "325", "text": "도급계약에서 수급인의 권리는 [.                          ]와 [.         ]가 있다.", "blankCount": 2}, {"id": "326", "text": "보수지금의무 <—> 목적물인도의무                [.            ]\n   지체상금지급의무 <—> 공사대금지급의무 [.                             ]\n        공사대금채무 <—> 하자보수채무                 [.            ]", "blankCount": 3}, {"id": "327", "text": "도급인의 일방적 해제에 기한 수급인의 손해배상청구에 대해 도급인은 [.                              ]을 주장할\n   수 있다.", "blankCount": 1}, {"id": "328", "text": "도급인이 ‘완성된 목적물의 하자’로 계약목적을 달성할 수 없을 때에는 [.                          ]할 수 있다.\n  단, [.          ]이나 [.        ]의 하자는 [.               ]할 수 없다.", "blankCount": 4}, {"id": "329", "text": "수급인의 담보책임에서 하자가 중요부분에 해당하지 않는다면, [.                           ] 또는 [.\n  ]를 할 수 없다.", "blankCount": 2}, {"id": "330", "text": "도급의 성질은 [.            ] 계약이다.", "blankCount": 1}, {"id": "331", "text": "수급인의 하자담보책임 면제약정은 [.                ]하다.\n  단, 수급인이 하자를 [.          ] 하면, 하자담보책임을 진다.", "blankCount": 2}, {"id": "332", "text": "하자담보책임 존속기간\n  - 하자보수청구권, 손해배상청구권, 해제권 —> [.                    ]\n  - 토지, 건물, 기타공장물의 목적물 또는 지반공사하자 —> [.                        ]\n  - 석조, 석회조, 연와조, 금속 기타 이와 유사한 재료 —> [.                 ]\n  - 위의 하자로 목적물 멸실 또는 훼손된 때 —> [.                ]", "blankCount": 4}, {"id": "333", "text": "수급인의 하자담보책임에 관한 기간은 [.                ] 이다.\n   수급인이 도급인에 대한 공사대금채권은 [.                   ] 이다.", "blankCount": 2}, {"id": "334", "text": "임대차 계약체결 성립요건은 [.            ] 이다.\n   [.          ]이 아니다.", "blankCount": 2}, {"id": "335", "text": "임대목적물이 타인소유 일 때, 임차인은 [.               ]에게 부당이득반환의무를 가진다.", "blankCount": 1}, {"id": "336", "text": "임대차계약에서 임대차기간을 영구적으로하는 약정은 [.                       ].", "blankCount": 1}, {"id": "337", "text": "임대차에서 불법점유가 아닐 때 [.             ]는 없다.\n  단, [.          ]는 있다.", "blankCount": 2}, {"id": "338", "text": "임대차에서 임대인에게 안전배려 또는 도난을 방지해줄 [.                         ].", "blankCount": 1}, {"id": "339", "text": "필요비 상환청구는 [.          ] 청구할 수 있고, 유익비 상환청구는 [.                     ] 청구 할\n  수 있다.", "blankCount": 2}, {"id": "340", "text": "임차인의 비용상환청구권은 임대인이 목적물을 반환 받은 때로 부터 [.                    ] 내에 행사하\n  여야 한다.", "blankCount": 1}, {"id": "341", "text": "임대차계약 해지통고는 임대인은 —> [.            ], 임차인은 —>[.                ],\n  동산은 —> [.          ] 후에 해지효력이 발생된다.", "blankCount": 3}, {"id": "342", "text": "지상물매수청구권은 [.           ] 하며, 임대인이 [.             ] 해야 행사할 수 있다.\n  단, 임대인이 미리 해지통고를 한 경우 임차인은 [.              ] 지상물매수청구권을 행사할 수 있\n  다.", "blankCount": 3}, {"id": "343", "text": "지상물매수청구권은 [.           ] 당시 지상물소유자가 [.              ] 당시 토지소유자에\n  게 청구한다.", "blankCount": 2}, {"id": "344", "text": "도급계약에서 도급인이 선급금 지급 후 계약이 해제, 해지되어 선급금을 반환하게 된 경우,\n  별도의 [.           ] 공사대금 중 미지급에 충당된다.", "blankCount": 1}, {"id": "345", "text": "도급계약에서 보수가 손해배상액을 초과하는 경우 수급인이 손해배상채무를 이행할 때 까지\n  [.               ]을 거절할 수 있다.", "blankCount": 1}, {"id": "346", "text": "부속물매수청구권은 [.           ]에 행사할 수 있다.", "blankCount": 1}, {"id": "347", "text": "부속물매수청구권은 임대인의 [.             ]가 있었어야 행사할 수 있다.", "blankCount": 1}, {"id": "348", "text": "임대차 종료전, 차임연채금은 별도의 의사표시 없이 보증금에서 [.                     ].", "blankCount": 1}, {"id": "349", "text": "임대차에서 차임이 [.          ] 연체된다면, 임대차계약은 [.               ] 할 수 있다.", "blankCount": 2}, {"id": "350", "text": "원인불명의 화재로 목적물 반환불능 시, 손해는\n    - 임대차에서는 —> [.                 ] 부담한다.\n    - 숙박업소에서는 —> [.                 ] 부담한다.", "blankCount": 2}, {"id": "351", "text": "임차인이 임대인 동의없이 할 수 없는 것들\n①\n②", "blankCount": 0}, {"id": "352", "text": "임대인의 동의없이 건물의 [.                     ] 을 타인에게 전대하는 경우\n    임대차계약을 해지할 수 [.                  ].", "blankCount": 2}, {"id": "353", "text": "인대인의 동의를 얻어 임차물을 전대하였을 때 전대차 계약상 차임을 감액하기로 하였다면, 이를 이\n    유로 임대인에게 전대차계약에 기하여 차임감액을 주장할 수 [.                        ]", "blankCount": 1}, {"id": "354", "text": "임대인의 동의없이 임차물을 전대하였을 때,\n    - 전대차계약은 [.           ]\n    - 전차인은 임대인에게 [.                 ]을 주장할 수 [.         ].\n    - 임대인은 전차인에게 [.                 ] 할 수 있다.\n    단, 임대인은 임대차계약을 해지하지 않는다면, 전차인에게 [.                       ]와 [.                ]를\n    할 수 없다.", "blankCount": 6}, {"id": "355", "text": "임대차계약에서 보증금 지급은 [.                       ].\n    단, 차임지급은 [.           ].", "blankCount": 2}, {"id": "356", "text": "임차인은 보증금반환을 위해 임차목적물에 유치권 행사를 할 수 [.                             ].", "blankCount": 1}, {"id": "357", "text": "임차인은 보증금 반환을 위해 동시이행항변권에 기한 목적물 점유는 [.                               ] 이고,\n    점유와 사용, 수익이 있다면, [.                   ]을 하여야한다.", "blankCount": 2}, {"id": "358", "text": "임대인은 보증금 반환채권에 대한 압류 및 전부명령이 송달된 후, 연체차임이 발생되면\n    보증금에서 공제 [.                ]", "blankCount": 1}, {"id": "359", "text": "임대차에서 편면적 강행규정 5가지\n①\n②\n③\n④\n⑤", "blankCount": 0}, {"id": "360", "text": "조합에서 손익분배 비율을 정하지 않은 경우, 각 조합원의 [.                         ]에 비례하여 정한다.", "blankCount": 1}, {"id": "361", "text": "변제자력이 없는 조합원이 있는 경우 변제할 수 없는 부분은 다른 조합원이 [.                         ] 변제할\n    책임이 있다.", "blankCount": 1}, {"id": "362", "text": "조합계약에서 출자의무이행과 이익분배를 직접 연결시키는 특약을 두지 않은 경우 조합원의 이익분\n    배를\n    [.          ].\n    출자금채권과 이익분배청구권은 [.                    ].", "blankCount": 2}, {"id": "363", "text": "조합에서 업부집행자를 선임하지 않으면 —> [.                         ]\n                     선임하면 —> [.                ], [.       ]", "blankCount": 3}, {"id": "364", "text": "업무집행자 선임방법은 [.                ] 찬성으로 선임한다.\n    업무집행자 해임방법은 [.                ]로 해임한다.", "blankCount": 2}, {"id": "365", "text": "업무집행자가 수인인경우 통상사무는 [.                      ] 할 수 있다.", "blankCount": 1}, {"id": "366", "text": "각 조합원은 [.           ] 조합업무 및 재산상태를 [.                  ] 할 수 있다.", "blankCount": 2}, {"id": "367", "text": "동업자 중 1인에게 업무 집행을 위임하여 처리하게 하였다면, 다른 동업자는 그 1인의 업무집행 과정\n    에서 발생한 불법행위에 대해 [.               ].", "blankCount": 1}, {"id": "368", "text": "조합의 재산은 [.            ] 이다.\n    [.        ]나 [.          ]가 아니다.", "blankCount": 3}, {"id": "369", "text": "다른조합원 전원의 동의가 있으면 [.               ]을 양도할 수 있다. 이때, [.               ]도 함\n    께 양도된다.", "blankCount": 2}, {"id": "370", "text": "조합에서 채권발생당시 채권자가 손실부담비율을 알지 못하는 경우 [.                        ] 한다.", "blankCount": 1}, {"id": "371", "text": "조합재산 처분, 변경은 조합원 또는 업무집행자의 [.                   ] 으로 결정한다.", "blankCount": 1}, {"id": "372", "text": "조합원의 채권자는 조합원의 지분을 [.               ] 할 수 있다.\n    단, 그 지분, 그자체에 대한 [.           ]은 허용되지 않는다.", "blankCount": 2}, {"id": "373", "text": "조합의 채권자는 조합원의 조합탈퇴의사를 이유로 [.                    ]을 행사할 수\n    [.        ].", "blankCount": 2}, {"id": "374", "text": "조합채무자는 ‘조합원 1인에 대한 개인채권’으로 ‘조합에 대한 채무'와 [.                   ].", "blankCount": 1}, {"id": "375", "text": "조합에서 합유등기를 하지 않고 공유등기 하였을 때에는 [.                    ] 한 것으로 본다.", "blankCount": 1}, {"id": "376", "text": "조합계약으로 조합의 존속기간을 정하지 아니하거나, 종신까지 존속할 것을 정한 때에는 각 조합원\n    은\n    [.        ] 있다. 단, 부득이한 사정없이 [.            ]에는 [.            ] 못한다.", "blankCount": 3}, {"id": "377", "text": "조합원 강제탈퇴사유 4가지\n①\n②\n③\n④", "blankCount": 0}, {"id": "378", "text": "조합원이 사망한 경우 별도의 약정이 없는 경우, 조합원의 지위는\n  상속인에게 [.            ] 이나 [.              ]다.\n\n  378-1 조합원의 제명은 정당한 사유가 있는경우 다른 조합원의 [.                          ]로써 결정한다", "blankCount": 3}, {"id": "379", "text": "조합원이 출자의무를 이행하지 않는 경우, 조합계약을 [.                         ]다.", "blankCount": 1}, {"id": "380", "text": "탈퇴에 따른 조합원의 환급 비율은 [.                       ]로 계산한다.\n  380-1청산에서 잔여재산은 [.                     ]로 분배한다.", "blankCount": 2}, {"id": "381", "text": "조합의 청산절차는 [.                 ] 이다.", "blankCount": 1}, {"id": "382", "text": "민법에서 위임은 [.                 ]으로써 당사자간 특약이 없으면 수임인을 [.                 ]를 할\n  수 없다", "blankCount": 2}, {"id": "383", "text": "위임계약에서 무상계약일 때 [.                     ]의무를 부담한다.", "blankCount": 1}, {"id": "384", "text": "수임인은 위임사무처리로 인해 받은 금전, 물건, 수취한 과실을 [.                         ] 한다.", "blankCount": 1}, {"id": "385", "text": "수임인의 보수청구권은 [.                     ] 청구 할 수 있다.\n  기간보수는 [.                ] 청구할 수 있다.", "blankCount": 2}, {"id": "386", "text": "수임인의 귀책사유 없는 위임종료 시 [.                       ]에 따른 보수청구를 할 수 있다.", "blankCount": 1}, {"id": "387", "text": "수임인이 대변제청구권을 보전하기 위해 위임인의 채권에 채권자 대위권을 행사하는 경우\n  위임인의 무자력을 [.                  ] 다.", "blankCount": 1}, {"id": "388", "text": "위임계약은 언제든지 계약을 [.                     ]할 수 있다.\n  그러나, [.                       ]는 손해배상책임이 있다.\n  단, [.           ]로 [.                ]된 때에는 그렇지 아니하다.", "blankCount": 4}, {"id": "389", "text": "위임계약 종료와 대리권 소멸사유 차이점\n  [.                                  ]", "blankCount": 1}, {"id": "390", "text": "수임인은 [.            ]때, [.                  ] 시에 보고의무가 있다.", "blankCount": 2}, {"id": "391", "text": "위임종료를 [.               ]하거나, [.               ]면, 상대방에게 대항할 수 [.             ]", "blankCount": 3}, {"id": "392", "text": "임치계약에서 무상수치인은 임치물을 [.                          ]로 보관한다.\n  유상수치인은 [.                 ]로 보관한다.", "blankCount": 2}, {"id": "393", "text": "임치계약에서 임치물반환청구의 소멸시효는 [.                           ]때 부터 진행된다.", "blankCount": 1}, {"id": "394", "text": "임치계약에서 수치인과실로 목적물이 멸실되었다면, [.                              ]의 [.       ]이 있다.", "blankCount": 2}, {"id": "395", "text": "예금계약은 [.               ]이며, 예금자가 금융기관에 [.                     ]하고, 금융기관이\n  [.           ] 하면 계약이 성립된다.\n  추후 [.           ]는 계약성립에 아무런 영향을 주지 않는다.", "blankCount": 4}, {"id": "396", "text": "착오송금에서 부당이득반환청구권 대상은 [.                          ]이지, [.           ]가 아니다.", "blankCount": 2}, {"id": "397", "text": "착오송금에서 송금인이 착오송금임을 은행에게 주장하였다면, 은행은 [.                               ]다.", "blankCount": 1}, {"id": "398", "text": "소비대차 종료 시, 차주는 대주에게 [.                           ]을 반환한다.", "blankCount": 1}, {"id": "399", "text": "금전소비대차에서 차주가 금전에 갈음하여 유가증권을 인도받은경우 [.                                ] 시점의 가액\n  으로써 차용액으로 한다.", "blankCount": 1}, {"id": "400", "text": "준소비대차에서 소멸시효 기간은 [.                         ]를 기준으로 채무성질에 의해 결정된다.", "blankCount": 1}, {"id": "401", "text": "화해계약은 착오를 이유로 [.                      ].\n  단, [.          ] 또는 [.                  ]는 그렇지 아니하다.", "blankCount": 3}, {"id": "402", "text": "고용에서 사용자가 파산선고를 받은 경우 [.                                ] 또는 [.           ]은 계약을 해지\n    할 수 있다.\n    이때, 각 당사자는 계약해지로 인한 [.                          ]를 [.             ].", "blankCount": 4}, {"id": "403", "text": "사무관리 성립요건 2가지\n①\n②", "blankCount": 0}, {"id": "404", "text": "사무관리자가 본인의사에 반하여 비용을 지줄한 경우, [.                                  ] 상환청구가 가능하다.", "blankCount": 1}, {"id": "405", "text": "법률상 의무없이 사무를 처리한 자는 본인에게 [.                                 ]을 청구할 수 [.          ].", "blankCount": 2}, {"id": "406", "text": "관리자가 본인에게 이익되는 방법으로 사무관리를 하지 않은 경우 —> 사무자는 [.                                          ].\n    그 관리행위가 [.                  ]에 적합한 때에는 [.                     ]이 없으면\n    손해배상책임이 [.                   ]\n    관리자가 [.             ], [.                  ]에 급박한 위해를 면하기 위해 사무관리를 한 때에는\n    [.           ],[.                ],[.           ]이 없으면 손해배상책임이 [.                     ].", "blankCount": 10}, {"id": "407", "text": "부당이득반환청구권 성립요건 4가지.\n①\n②\n③\n④", "blankCount": 0}, {"id": "408", "text": "타인에게 [.              ]가 발생되지 않으면 [.                         ]이 성립되지 않는다.", "blankCount": 2}, {"id": "409", "text": "부당이득반환청구에서 [.                           ]은 [.            ]을 의미하며, 임차인이 임대차계약 종\n    료 후 계속점유는 하였지만, 실제 사용,수익하지 않았다면, 임차인은 [.                                   ]상당의 부당이\n    득의무가 없다.", "blankCount": 3}, {"id": "410", "text": "부당이득 반환의무에서 수익자에게 [.                      ]을 요구하지 않는다.", "blankCount": 1}, {"id": "411", "text": "선의의 수익자는 이익이 [.               ]부터 [.                ]이다.", "blankCount": 2}, {"id": "412", "text": "선의의 수익자는 부당이득반환청구소송에서 [.                           ]한때, [.             ]부터 [.\n  ] 이다.", "blankCount": 3}, {"id": "413", "text": "건물의 소유자가 현실적으로 건물이나 그 부지를 점거하고 있지 않다면, 토지소유자에게 부당이득반\n  환의무가 [.             ].", "blankCount": 1}, {"id": "414", "text": "적법한 배당요구를 하지 않아 배당에서 제외된 경우 배당금을 수열한 다른 채권자를 상대로\n  [.          ].", "blankCount": 1}, {"id": "415", "text": "명의수탁자가 명의 신탁자에게 재산세에 대한 [.                          ]를 할 수[.               ].", "blankCount": 2}, {"id": "416", "text": "점유취득시효가 완성된 경우 소유명의자는 점유자가 점유취득시효 완성 전까지\n  그 부동산으로 얻은 이익에 대해 [.                     ]를 할 수 [.               ].", "blankCount": 2}, {"id": "417", "text": "채무자가 채무없음을 알고 변제하였다면 채권제게엑 [.                              ]를 할 수 [.            ].", "blankCount": 2}, {"id": "418", "text": "채무없는자가 착오로 변제한 경우, 그 변제자가 [.                         ]때에는 부당이득반환청구를 할 수\n  없다.", "blankCount": 1}, {"id": "419", "text": "채무자가 아닌자가 착오로 타인채무를 변제한 경우\n  채권자가 [.             ][.           ][.                ] 하였을 때에는 부당이득반환청구를\n  할 수 없다.", "blankCount": 3}, {"id": "420", "text": "불법원인으로 급여 또는 노무를 제공하였다면, 급여자는 수익자에게 [.                                 ]\n  불법원인이란 [.                 ]를 의미한다.", "blankCount": 2}, {"id": "421", "text": "어업권 임대차를 금지하는 강행규정을 위반하여 어업권을 임대하여 얻은 이익은 [.                         ]\n  이다.", "blankCount": 1}, {"id": "422", "text": "불법원인급여에서 얻은 이익은 [.                    ] 이익이다.", "blankCount": 1}, {"id": "423", "text": "불법원인급여가 제3자에게도 이익이 있을 때, 급부자는 제3자에게\n  [.          ]를 할 수 [.              ].", "blankCount": 2}, {"id": "424", "text": "채무자가 제3자의 돈을 횡령하여 채권자에게 변제하였을 때,\n  채권자가 [.            ] —> [.              ]\n         [.          ] —> [.              ]", "blankCount": 4}, {"id": "425", "text": "불법행위책임에서 위법행위와 손해발생시점이 차이가 있는 경우 [.                          ]이 손해배상책임\n  이 성립하는 시기이다.", "blankCount": 1}, {"id": "426", "text": "불법행위로 인한 손해배상채무는 채무성립과 동시에 [.                         ]이 발생한다.", "blankCount": 1}, {"id": "427", "text": "타인의 명예를 훼손한자에 대하여 법원은 [.                    ]에 의해 명예회복에 적당한 처분을 명할\n  수 있다. 단, 법원은 [.              ]를 명할 수 없다.", "blankCount": 2}, {"id": "428", "text": "성추행당한 미성년자가 가해자에게 가지는 손해배상청구권의 소멸시효는 [.                           ] 부터 진\n  행된다.", "blankCount": 1}, {"id": "429", "text": "부진정연대채무에서 피용자의 불법행위에 기한 손해배상채무가 시효로 소멸된다면, 사용자책임에\n  기한 손해배상채무는 [.                 ].", "blankCount": 1}, {"id": "430", "text": "명의차용자의 업무상 불법행위에 대해 명의대여자는 [.                         ]\n  지입차량 차주의 불법행위에 대해 지입회사는 [.                          ]\n  법인의 대표자의 불법행위에 대해 법인은 [.                     ],[.           ]", "blankCount": 4}, {"id": "431", "text": "불법행위책임에서 사용자책임 성립요건\n    - 사용자가 피용자를 [.          ] 지휘, 감독하는 관계여야한다.\n    - 사무집행관련성은 [.           ] 판단한다. [.               ]는 고려하지 않는다.\n    - 피용자의 행위가 [.         ]을 충족해야 한다.", "blankCount": 4}, {"id": "432", "text": "불법행위 성립요건 3가지\n①\n②\n③", "blankCount": 0}, {"id": "433", "text": "사용자는 피용자의 불법행위에 대해 손해배상책임이 있다.\n    단, 사용자가 [.             ] 에는 손해가 발생하더라도 사용자책임은 [.                      ]\n    된다.", "blankCount": 2}, {"id": "434", "text": "피용자와 제3자가 공동불법행위를 하였을 때, 사용자와 제3자는 [.                         ] 이다.", "blankCount": 1}, {"id": "435", "text": "피해자에게 과실이 있는 경우\n    피용자는 —> [.        ]\n    사용자는 —> [.        ]", "blankCount": 2}, {"id": "436", "text": "사용자책임에서 피해자가 악의 또는 중과실이 있다면 사용자는 [.                       ]", "blankCount": 1}, {"id": "437", "text": "도급계약에서 수급인의 제3자에 대한 손해배상에 대해 도급인은 사용자책임이 [.                           ]\n    단, 도급인이 [.        ] 경우 [.            ]의 경우, [.          ] 경우,\n    도급인은 사용자 책임이 [.             ]", "blankCount": 5}, {"id": "438", "text": "공동불법행위에서 과실상계를 하기 위해서는 [.                    ] 평가해야 한다.", "blankCount": 1}, {"id": "439", "text": "공동불법행위에서 고의로 불법행위 한자는 [.                   ]를 주장할 수 없다.", "blankCount": 1}, {"id": "440", "text": "공작물 책임에서 1차 책임자는 점유자이고 점유자가 본인의 무과실을 입증하면 면책되고,\n    소유자가 무과실책임을 진다.\n\n   점유자와 연대해서 책임지지 않는다.", "blankCount": 0}, {"id": "441", "text": "", "blankCount": 0}, {"id": "442", "text": "", "blankCount": 0}, {"id": "443", "text": "", "blankCount": 0}, {"id": "444", "text": "", "blankCount": 0}, {"id": "445", "text": "", "blankCount": 0}, {"id": "446", "text": "", "blankCount": 0}, {"id": "447", "text": "", "blankCount": 0}, {"id": "448", "text": "", "blankCount": 0}, {"id": "449", "text": "", "blankCount": 0}, {"id": "450", "text": "채권의 목적을 종류로만 지정한 경우 [.                 ]로 이행한다.", "blankCount": 1}, {"id": "451", "text": "특정물, 불특정물 —> [.        ]로 결정\n  대체물, 빛대체물 —> [.          ] 로 결정", "blankCount": 2}, {"id": "452", "text": "특정 동호수를 정한 매매는 [.          ]이고, 아파트 분양계약은 [.                     ] 이다.", "blankCount": 2}, {"id": "453", "text": "특정물채권의 채무자는 이행지체 중 [.                   ] 목적물이 멸실되었다면, [.                     ]다.", "blankCount": 2}, {"id": "454", "text": "우리나라 통화를 외화채권에 변제충당 시 [.                   ] 때에 외국환시세에 의해 환산한다.", "blankCount": 1}, {"id": "455", "text": "이미 변제기에 도달한 이자채권은 원본채권이 양도될때 별도의 의사표시 없이 [.                               ] 다.", "blankCount": 1}, {"id": "456", "text": "이자제한법상 제한 이자는 [.           ] 이다.", "blankCount": 1}, {"id": "457", "text": "선택체권은 당사자 약정이 없으면 [.               ]가 선택한다.", "blankCount": 1}, {"id": "458", "text": "선택권 있는 제3자가 선택하지 않으면 최고 후 [.                    ]가 선택한다.", "blankCount": 1}, {"id": "459", "text": "선택채권에서 선택효력은 [.                 ]로 [.              ]한다.", "blankCount": 2}, {"id": "460", "text": "임대차계약상 임차권 양도를 금지특약 하였다면, [.                      ]은 양도가 [.              ].", "blankCount": 2}, {"id": "461", "text": "전세권은 존속시키면서, 전세권과 분리하여 전세금반환청구권을 양도할 수 [.                           ].", "blankCount": 1}, {"id": "462", "text": "채권양도금지특약을 위반하여 야도인이 제3자에게 채권을 양도한 경우, 채무자가 사후 승낙하면\n  [.          ] 채권양도효력이 발생된다. [.                   ]가 아니다.", "blankCount": 2}, {"id": "463", "text": "채권양도시 채무자에게 통지 주체는 [.                   ]이다.", "blankCount": 1}, {"id": "464", "text": "채권양도계약 후 해제된 경우 해제 사실의 통지 주체는 [.                         ] 이다.", "blankCount": 1}, {"id": "465", "text": "채권양도에서 [.                    ]와 [.               ]은 대항요건일 뿐이다.\n    단, 채무자는 [.               ]은 반드시 필요하다", "blankCount": 3}, {"id": "466", "text": "채권양도에서 채무자의 3가지 승낙방법\n①\n②\n③", "blankCount": 0}, {"id": "467", "text": "후순위 근저당권자가 보호되지 않는 제3자인 3가지\n①\n②\n③", "blankCount": 0}, {"id": "468", "text": "주채권과 보증채권이 함께 양도되는 경우 보증인의 통지,승낙이 [.                                ]", "blankCount": 1}, {"id": "469", "text": "채권이중양도에서 양수인의 상호간 우열은 [.                                     ] 기준으로 결정된다.", "blankCount": 1}, {"id": "470", "text": "채무인수에서 채권자가 승낙거절 후 다시 승낙하였다면, 채무인수효력은 [.                                  ]", "blankCount": 1}, {"id": "471", "text": "면책적 채무인수가 유효하며느 전 채무자의 채무에 대한 보증 또는 제3자가 제공한 담보는\n    [.           ]", "blankCount": 1}, {"id": "472", "text": "[.           ]이나 [.                   ]은 인수인에게 이전할 수 없다.", "blankCount": 2}, {"id": "473", "text": "면책적 채무인수 후 소멸시효는 [.                           ]", "blankCount": 1}, {"id": "474", "text": "채무인수인은 채권자에게 [.                               ] 가진 항변사유로 대항할 수 있다.", "blankCount": 1}, {"id": "475", "text": "임차주택 매매후 주택양수인은 임차인에 대한 임대차 보증금 반환채무를 면책적으로 인수하였다면,\n    양도인은 [.               ]를 [.              ].\n    단, 임차인이 지위승계를 원하지 않아 이의 제기하면 양도인은 [.                              ]를 [.       ]", "blankCount": 4}, {"id": "476", "text": "면책적 채무인수에서 채권자는 승낙 또는 거절의 의사표시를 [.                        ]에게 하여야 한다.", "blankCount": 1}, {"id": "477", "text": "이행인수에서 이행인수인이 채권자에게 채무를 승인한다면, [.                             ]에\n    해당[.         ].", "blankCount": 2}, {"id": "478", "text": "면책적 채무인수에서 채권자의 승낙이 없는 경우 채무자와 인수인 사이에\n    이행인수 [.           ]", "blankCount": 1}, {"id": "479", "text": "채권자대위권을 행사할 수 없는 2가지\n①\n    1-1\n    1-2\n②", "blankCount": 0}, {"id": "480", "text": "채권자대위권을 행사하기 위해서는 [.                   ]가 요구되지 않는다.\n    단, 채권자대위권 행사 후 [.           ] 에게 [.           ] 하여야 한다.", "blankCount": 3}, {"id": "481", "text": "피보전채권의 존재여부는 [.               ] 이다.", "blankCount": 1}, {"id": "482", "text": "피보전채권이 이행기 도래 전에는 [.                  ]나 [.       ]는\n    채권을 대위행사 할 수 있다.", "blankCount": 2}, {"id": "483", "text": "피보전채권이 금전채권일 때 채무자의 무자력을 요하지 않는 2가지\n①\n②", "blankCount": 0}, {"id": "484", "text": "직접 대위채권자에게 금전지급을 명하는 판결이 확정된 경우\n    [.                ]는 이를 압류할 수 있다.\n    [.                ]는 이를 압류할 수 없다.", "blankCount": 2}, {"id": "485", "text": "채권자대위소송 제기로 인한 소멸시효가 중단되는 권리는 [.                       ]이다.", "blankCount": 1}, {"id": "486", "text": "채무자의 일반채권자는\n    [.        ] 소멸시효를 주장할 수 [.               ].\n    [.        ] 소멸시효를 주장할 수 [.               ]", "blankCount": 4}, {"id": "487", "text": "채권자대위권 행사 후 채무자에게 통지하였다면, 채무자와 제3채무자와의 관계는?\n    (원칙 3가지, 예외 2가지)\n①\n②\n③\n    [예외]\n①\n②", "blankCount": 0}, {"id": "488", "text": "채권자취소권의 취소대상은 [.                ]와 [.             ] 사이의 법률행위이다.", "blankCount": 2}, {"id": "489", "text": "채권자취소권은 [.              ] 행사하여야 한다. [.              ] 방법으로 주장할 수 없다.\n    [.        ]대상은 [.           ] 또는 [.              ] 이다.", "blankCount": 5}, {"id": "490", "text": "채권자취소권에서 피보전채권은 [.                    ] 해야하고 채권중에서는\n    [.        ] 채권이어야 한다. 물권도 가능하다.\n    단, [.        ] 발생된 [.          ]은 채권자 취소권을 행사할 수 [.               ]", "blankCount": 5}, {"id": "491", "text": "채권자취소권에서 채무자의 사해행위가 아닌 3가지\n①\n②\n③", "blankCount": 0}, {"id": "492", "text": "채권자 취소권에서 채권자가 채무자의 [.                   ]를 [.           ]하면,\n    [.        ]는 추정된다.", "blankCount": 3}, {"id": "493", "text": "채권자취소권 행사방법은 [.               ]가 [.              ] 에게\n    [.        ] 와 [.          ]을 청구한다.", "blankCount": 4}, {"id": "494", "text": "채권자 취소소송 확정판결에 따라 수익자의 소유권이전등기가 말소된 경우,\n    채무자의 등기면의는 [.                   ]\n    채무자의 소유권은 [.                ]\n    —> 상대적무효설", "blankCount": 2}, {"id": "495", "text": "채권자취소권은 [.              ]의 이익을 위해 채권자취소권 효력을 인정한다.", "blankCount": 1}, {"id": "496", "text": "법률상 이해관계 없는 “후순위담보권자” 3가지\n①\n②\n③", "blankCount": 0}, {"id": "497", "text": "번제에서 채권자를 대위하기 위해\n    채권자의 승낙이 필요한 자 —> [.                        ]\n    채권자의 승낙이 필요없는 자 —> [.                           ]", "blankCount": 2}, {"id": "498", "text": "채권의 준점유자, 영수증소지자 에게 한 변제가 유효한 변제가 되려면,\n    변제자의 [.            ]을 요한다.", "blankCount": 1}, {"id": "499", "text": "변제충당\n    합의가 있으면 —>[.            ]\n    경매는. —> [.          ]\n    지정충당 시 순서 —> [.                 ]—>[.                   ]—>[.        ]\n    지정충당 시 지정은 —> [.                    ]—>[.                ]\n                                                        —> 채무자의 이의 존재 —>[.   ]", "blankCount": 8}, {"id": "500", "text": "법정충당에서 변제이익이 큰 채무는\n    - 이자채무 [.             ] 무이자채무\n    - 주채무 [.            ] 보증채무\n    - 원금 5천만원 [.                ] 원금 1억\n    - 보증인 존재 [.              ] 보증인 미존재", "blankCount": 4}, {"id": "501", "text": "법정충당순서\n①\n②\n③\n④", "blankCount": 0}, {"id": "502", "text": "변제비용은 [.               ]가 부담한다.", "blankCount": 1}, {"id": "503", "text": "변제할 정당한 이익이 있는자 5가지\n①\n②\n③\n④\n⑤", "blankCount": 0}, {"id": "504", "text": "일부대위변제에서 배당절차 시 채권자가 일부대위변제자보다. [.                               ]을 가진다.", "blankCount": 1}, {"id": "505", "text": "법정대위자 상호간 효과는 [.                      ]이 [.           ]보다 우선한다.", "blankCount": 2}, {"id": "506", "text": "보증인은 변제 후 채무자등기에 [.                           ] 하지 않으면, 제3취득자에게\n    [.            ]하지 못한다.\n    단, 제3취득자가 먼저 권리를 취득한 후에 보증인이 채무를 변제하였다면, 보증인은\n    [.            ] 하지 않아도 [.               ] 한다.", "blankCount": 4}, {"id": "507", "text": "‘갑’의 채무가 6억원이며, 보증인 A와 물상보증인 B, C가 있다. (B와 C의 지분 비율은 3:1이다.)\n   이때 불상보증인 B가 채무 6억원 모두를 변제하였다면 채권자를 대위하여\n   A에게 [.             ], C,에게 [.                ]을 청구 할 수 있다.", "blankCount": 2}, {"id": "508", "text": "상계에서 [.                ]는 반드시 변제기가 도래해야 상계할 수 있다.", "blankCount": 1}, {"id": "509", "text": "동시이행항변권이 붙어있는 채권은 이를 [.                            ]으로 상계하지 못한다.", "blankCount": 1}, {"id": "510", "text": "[.           ]로 인한 손해배생채권은 [.                      ]으로 상계할 수 없다.\n   단, 피해자가 손해배생채권을 [.                      ]으로 가해자에게 상계를 주장할 수 있다.", "blankCount": 3}, {"id": "511", "text": "압류금지채권 또는 지급금지채권을 [.                          ]으로 상계할 수 없다.\n   압류금지채권으로는 [.                    ], [.            ], [.            ], 등이 있다.", "blankCount": 4}, {"id": "512", "text": "제3자에 의해서 [.               ]이 압류되었을 때 채무자가 상계를 제3자에게 주장하기 위해서는\n   자동채권이 압류당시에는 변제기에 도달하지 않았더라도 [.                                   ] 또는 [.     ]\n   한다면 제3자에게 상계를 주장할 수 있다.\n   단, [.           ]이 [.               ]보다 [.               ]한다면 그렇지 아니하다.", "blankCount": 6}, {"id": "513", "text": "자동채권과 수동채권이 동시이행관계에 있는 경우 [.                              ]을 주장할 수 [.            ]", "blankCount": 2}, {"id": "514", "text": "상계의 효과는 [.               ]로 소급하여 채권이 소급한다.\n   단, 채권양도일경우 [.                      ]로 소급한다.", "blankCount": 2}, {"id": "515", "text": "소멸시효 완성 전 상계할 수 있었던 채권은 시효완성 후 [.                            ]", "blankCount": 1}, {"id": "516", "text": "다수당사자 채권관계에서 1인에게 생긴 사유가 다른 연대채무자, 부진정연대채무자 에게 효력이\n   발생되는 것은\n   - 연대채무에서 절대효 —>[.                                                 ]\n   - 연대채무에서 부담부분 절대효 —>[.                                            ]\n   - 부진정연대채무에서 절대효 —> [.                                             ]", "blankCount": 3}, {"id": "517", "text": "보증채무의 효력발생요건은 [.                ]이 잇는 서면으로 표시되어야 한다.\n  [.            ]은 보증계약에서 효력이 없다.", "blankCount": 2}, {"id": "518", "text": "보증인의 [.           ]은 타인이 이를 대행하는 방법으로 할 수 있다.", "blankCount": 1}, {"id": "519", "text": "보증인의 부담부분이 주채무의 목적이나 형태보다 중요할 때에는 [.                               ] 한다.", "blankCount": 1}, {"id": "520", "text": "주채무 소멸시효가 완성되면 보증채무는 [.                      ]\n  소멸시효가 중단되면 보증채무는 [.                 ]\n  보증채무의 소멸시효가 중단되면 주채무는 [.                           ]", "blankCount": 3}, {"id": "521", "text": "주채무자에 대한 채권이 양도된경우 보증채무는 [.                              ] 된다.\n  주채무가 인수된 경우 보증채무는 [.                    ]면 [               ] 된다.", "blankCount": 3}, {"id": "522", "text": "채무자가 보증인을 세울 의무가 있는 경우 채권자가 보증인을 지명하였다면,\n  보증인은 [.            ] 및 [.          ]이 없어도 된다.", "blankCount": 2}, {"id": "523", "text": "보증인의 사후구상권은 변제기 전에 변제하여도 [.                              ] 까지 행사 할 수 없다.", "blankCount": 1}, {"id": "524", "text": "보증인은 주채무 변제를 위하여 출재함에 있어서\n  [.            ]면 사후구상권을 행사할 수 [.                       ]\n  [.            ]면 사후구상권을 행사할 수 [.                       ]", "blankCount": 4}, {"id": "525", "text": "사전구상권은 [.             ], [.       ]때 행사할 수 있다.", "blankCount": 2}, {"id": "526", "text": "수탁보증인은 주채무의 변제기가 연장될 때에는 [.                              ] 이후에 사전구상권을 행사할 수\n  있다.", "blankCount": 1}, {"id": "527", "text": "보증인의 [.           ]와 주채무자의 [.                ]는 동시이행관계이다.", "blankCount": 2}, {"id": "528", "text": "채권자가 주채무자에게 가지는 상계적상에 있는 자동채권을 상계하지 않는 경우,\n  보증채무자는 이를 이유로 [.               ]을 [.              ]다.", "blankCount": 2}, {"id": "529", "text": "주채무자의 [.          ],보증인이 된 자가 변제로써 주채무가 소멸될때에는\n  [.           ]에서 배상을 하여야 한다.\n  529-1 주채무자의 [.         ],보증인이 된 자가 변제로써 주채무가 소멸될때에는\n  [.           ]에서 배상을 하여야 한다.", "blankCount": 4}, {"id": "530", "text": "수인이 주채무자 중 1인만을 위한 보증인 일때, 이 보증인이 분할채무 채무액 전부를 변제한 후\n  주채무자 1인 외 제3자 채무자 에게는 [.                ] 또는 [.               ]를 행사할 수 있다.\n  단, 주채무가 불가분채무이거나, 연대채무일때에는 [.                           ]을 행사할 수 있다.", "blankCount": 3}, {"id": "531", "text": "연대보증인에게는 [.          ][.             ]이 인정되지 않는다.", "blankCount": 2}];
-const blankRe = /\[[\s.]*\]/g;
-const usable = BANK.filter(q => q.blankCount > 0);
+let BANK=[], ANSWERS={}, queue=[], current=null, slotIndex=0, locked=false;
+let stats=JSON.parse(localStorage.getItem('myn_civil_stats')||'{}');
 
-let queue = [];
-let current = null;
-let blankIndex = 0;
-let generated = null;
-let right = 0, wrong = 0;
-let lock = false;
+const $=id=>document.getElementById(id);
+const blankRe=/\[(?:\s*\.?\s*)\]/g;
 
-const $ = id => document.getElementById(id);
-
-function shuffled(arr) {
-  const a = [...arr];
-  for (let i=a.length-1;i>0;i--) {
-    const j = Math.floor(Math.random()*(i+1));
-    [a[i],a[j]]=[a[j],a[i]];
-  }
-  return a;
+function saveStats(){localStorage.setItem('myn_civil_stats',JSON.stringify(stats))}
+function key(qid,slot){return qid+":"+slot}
+function getStats(qid,slot){return stats[key(qid,slot)]||{right:0,wrong:0}}
+function setStats(qid,slot,ok){let s=getStats(qid,slot); ok?s.right++:s.wrong++; stats[key(qid,slot)]=s; saveStats(); updateStats();}
+function questionErrorCount(q){let t=0; for(let s=0;s<q.slots;s++) t+=getStats(q.id,s).wrong; return t}
+function hasAllAnswers(q){for(let s=0;s<q.slots;s++){let a=ANSWERS[key(q.id,s)]; if(!a || a.answerIndex===null || !Array.isArray(a.options) || a.options.length!==4) return false;} return true}
+function shuffled(a){a=[...a]; for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]} return a}
+function buildQueue(){
+  const mode=$('mode').value;
+  let qs=BANK.filter(q=>q.subject===$('subject').value && hasAllAnswers(q));
+  if(mode==='wrong') qs=qs.filter(q=>questionErrorCount(q)>0);
+  // Higher-error questions get more weight in wrong mode, but each question can appear once per cycle.
+  if(mode==='wrong'){
+    const weighted=[];
+    qs.forEach(q=>{const n=Math.min(6,Math.max(1,questionErrorCount(q))); for(let i=0;i<n;i++) weighted.push(q)});
+    qs=[...new Map(shuffled(weighted).map(q=>[q.id,q])).values()];
+  } else qs=shuffled(qs);
+  queue=qs;
+  $('notice').textContent=`현재 정답이 준비된 문제 ${qs.length}개 / 전체 ${BANK.length}개. 정답이 없는 문제는 정답 파일 업데이트 후 자동으로 출제됩니다.`;
 }
-
-function newQueue() {
-  queue = shuffled(usable);
+function nextQuestion(){
+  if(queue.length===0) buildQueue();
+  if(queue.length===0){alert('현재 선택된 모드에서 출제 가능한 문제가 없습니다.');return}
+  current=queue.pop(); slotIndex=0; render();
 }
-
-function nextSentence() {
-  if (!queue.length) newQueue();
-  current = queue.pop();
-  blankIndex = 0;
-  generated = null;
-  render();
-  generateChoices();
-}
-
-function countBlanks(text) {
-  return (text.match(blankRe)||[]).length;
-}
-
-function renderQuestion() {
-  const text = current.text;
-  let i = 0;
-  const html = text.replace(blankRe, () => {
-    const n = i++;
-    if (n < blankIndex) return `<span class="blank-done">정답</span>`;
-    if (n === blankIndex) return `<span class="blank-now">빈칸 ${n+1}</span>`;
-    return `<span class="blank-done">빈칸 ${n+1}</span>`;
+function renderText(){
+  let i=0;
+  const html=current.text.replace(blankRe,()=>{
+    const n=i++;
+    if(n<slotIndex) return '<span class="doneBlank">정답</span>';
+    if(n===slotIndex) return '<span class="currentBlank">현재 빈칸</span>';
+    return '<span class="doneBlank">빈칸 '+(n+1)+'</span>';
   });
-  $("qtext").innerHTML = html.replace(/\n/g,"<br>");
+  $('qtext').innerHTML=html.replace(/\n/g,'<br>');
 }
-
-function render() {
-  $("qno").textContent = `${current.id}번`;
-  const total = countBlanks(current.text);
-  $("blankInfo").textContent = `${blankIndex+1} / ${total} 빈칸`;
-  $("step").textContent = "이 문장의 빈칸을 앞에서부터 하나씩 풉니다.";
-  renderQuestion();
-  $("choices").innerHTML = "";
-  $("feedback").className = "feedback";
-  $("feedbackTitle").textContent = "";
-  $("explain").textContent = "";
-  $("loading").classList.add("hidden");
-  lock = false;
-  $("bar").style.width = `${Math.min(100,(blankIndex/total)*100)}%`;
-}
-
-function answer(index) {
-  if(lock || !generated) return;
-  lock = true;
-  const buttons = [...document.querySelectorAll(".choice")];
-  buttons.forEach((b,i) => {
-    if(i === generated.answerIndex) b.classList.add("correct");
-    if(i === index && index !== generated.answerIndex) b.classList.add("wrong");
-    if(i !== generated.answerIndex && i !== index) b.classList.add("dim");
-    b.disabled = true;
+function render(){
+  locked=false;
+  const a=ANSWERS[key(current.id,slotIndex)];
+  const total=current.slots;
+  $('qno').textContent=current.id+'번';
+  $('slot').textContent='빈칸 '+(slotIndex+1)+' / '+total;
+  $('step').textContent=total>1?'이 문장의 빈칸을 앞에서부터 하나씩 풉니다.':'정답을 하나 선택하세요.';
+  renderText();
+  $('choices').innerHTML='';
+  $('feedback').className='feedback';
+  $('ft').textContent='';$('fx').textContent='';$('fs').textContent='';
+  a.options.forEach((o,i)=>{
+    const b=document.createElement('button');
+    b.className='choice';
+    b.innerHTML='<span class="num">'+['①','②','③','④'][i]+'</span>'+escapeHtml(o);
+    b.onclick=()=>answer(i);
+    $('choices').appendChild(b);
   });
-  const ok = index === generated.answerIndex;
-  if(ok) right++; else wrong++;
-  $("right").textContent = right;
-  $("wrong").textContent = wrong;
-  const done = right+wrong;
-  $("rate").textContent = done ? Math.round(right/done*100)+"%" : "0%";
-  $("feedback").className = "feedback show " + (ok ? "good" : "bad");
-  $("feedbackTitle").textContent = ok ? "✅ 정답" : `❌ 오답 — 정답: ${generated.answerIndex+1}번`;
-  $("explain").textContent = generated.explanation || "";
-  const delay = ok ? 750 : 1200;
-  setTimeout(() => {
-    const total = countBlanks(current.text);
-    if(blankIndex + 1 < total) {
-      blankIndex++;
-      generated = null;
-      render();
-      generateChoices();
-    } else {
-      nextSentence();
-    }
-  }, delay);
+  $('bar').style.width=((slotIndex+1)/total*100)+'%';
 }
-
-function showChoices(data) {
-  generated = data;
-  $("loading").classList.add("hidden");
-  $("choices").innerHTML = "";
-  const names = ["①","②","③","④"];
-  data.options.forEach((option,i) => {
-    const b = document.createElement("button");
-    b.className = "choice";
-    b.innerHTML = `<span class="letter">${names[i]}</span>${escapeHtml(option)}`;
-    b.onclick = () => answer(i);
-    $("choices").appendChild(b);
-  });
+function answer(i){
+  if(locked)return; locked=true;
+  const a=ANSWERS[key(current.id,slotIndex)];
+  const bs=[...document.querySelectorAll('.choice')];
+  bs.forEach((b,n)=>{if(n===a.answerIndex)b.classList.add('correct'); if(n===i&&i!==a.answerIndex)b.classList.add('wrong'); if(n!==a.answerIndex&&n!==i)b.classList.add('dim'); b.disabled=true});
+  const ok=i===a.answerIndex;
+  setStats(current.id,slotIndex,ok);
+  $('feedback').className='feedback show '+(ok?'good':'bad');
+  $('ft').textContent=ok?'✅ 정답':'❌ 오답 — 정답은 '+['①','②','③','④'][a.answerIndex]+'번';
+  $('fx').textContent=a.explanation||'';
+  $('fs').textContent=a.verified?'출처 기준 확인 답안':'초안 답안 — 나중에 정답지로 교체 가능';
+  setTimeout(()=>{
+    if(slotIndex+1<current.slots){slotIndex++;render();}
+    else nextQuestion();
+  }, ok?650:1100);
 }
-
-function escapeHtml(s) {
-  return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+function updateStats(){
+  let r=0,w=0; Object.values(stats).forEach(s=>{r+=s.right||0;w+=s.wrong||0});
+  $('r').textContent=r;$('w').textContent=w;
+  $('rate').textContent=(r+w)?Math.round(r/(r+w)*100)+'%':'0%';
 }
-
-function promptForBlank() {
-  let k = 0;
-  return current.text.replace(blankRe, () => {
-    const v = k++;
-    return v === blankIndex ? "【현재 빈칸】" : "＿＿＿＿";
-  });
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function exportAnswers(){
+  const blob=new Blob([JSON.stringify(ANSWERS,null,2)],{type:'application/json'});
+  const url=URL.createObjectURL(blob), a=document.createElement('a'); a.href=url; a.download='answers.json'; a.click(); URL.revokeObjectURL(url);
 }
-
-async function generateChoices() {
-  const key = sessionStorage.getItem("mync_api_key") || localStorage.getItem("mync_api_key");
-  if(!key) {
-    $("loading").classList.remove("hidden");
-    $("loading").textContent = "설정에서 OpenAI API 키를 넣으면 4지선다가 생성됩니다.";
-    return;
-  }
-  $("loading").classList.remove("hidden");
-  $("loading").textContent = "4지선다를 만드는 중…";
-  const prompt = `
-너는 대한민국 민법 객관식 문제 출제자다.
-아래는 사용자가 직접 만든 빈칸 문제의 원문이다. 원문의 문장과 의미를 바꾸지 마라.
-현재 빈칸 하나만 4지선다로 출제한다.
-다른 빈칸은 ＿＿＿＿ 로 보이므로 현재 빈칸의 답을 추측하기 위한 맥락으로만 사용한다.
-정답은 법률적으로 정확해야 하며, 현행 대한민국 민법과 판례 기준으로 판단한다.
-선택지는 서로 명확히 구별되고 오직 하나만 정답이어야 한다.
-반드시 JSON만 출력한다.
-
-원문:
-${promptForBlank()}
-
-JSON 형식:
-{"options":["선택지1","선택지2","선택지3","선택지4"],"answerIndex":0,"explanation":"짧은 해설"}
-`;
-  try {
-    const res = await fetch("https://api.openai.com/v1/responses", {
-      method:"POST",
-      headers:{"Content-Type":"application/json","Authorization":"Bearer "+key},
-      body:JSON.stringify({
-        model:"gpt-5.6-luna",
-        input:prompt,
-        text:{
-          format:{
-            type:"json_schema",
-            name:"mcq",
-            strict:true,
-            schema:{
-              type:"object",
-              properties:{
-                options:{type:"array",items:{type:"string"},minItems:4,maxItems:4},
-                answerIndex:{type:"integer",minimum:0,maximum:3},
-                explanation:{type:"string"}
-              },
-              required:["options","answerIndex","explanation"],
-              additionalProperties:false
-            }
-          }
-        }
-      })
-    });
-    if(!res.ok) throw new Error(await res.text());
-    const data = await res.json();
-    const out = data.output?.flatMap(x=>x.content||[]).find(x=>x.type==="output_text")?.text;
-    if(!out) throw new Error("AI 응답을 읽지 못했습니다.");
-    showChoices(JSON.parse(out));
-  } catch(e) {
-    $("loading").textContent = "4지선다 생성 실패: 설정의 API 키 또는 연결 상태를 확인하세요.";
-    $("loading").classList.remove("hidden");
-  }
+$('next').onclick=nextQuestion;
+$('restart').onclick=()=>{slotIndex=0;render()};
+$('mode').onchange=()=>{buildQueue();nextQuestion()};
+$('subject').onchange=()=>{buildQueue();nextQuestion()};
+$('settingsBtn').onclick=()=>$('modal').classList.add('show');
+$('closeModal').onclick=()=>$('modal').classList.remove('show');
+$('statsBtn').onclick=()=>alert('누적 정답: '+$('r').textContent+'\\n누적 오답: '+$('w').textContent+'\\n전체 정답률: '+$('rate').textContent);
+$('clearStats').onclick=()=>{if(confirm('오답 및 통계를 모두 초기화할까요?')){stats={};saveStats();updateStats();$('modal').classList.remove('show');}};
+$('answerFile').onchange=async e=>{const f=e.target.files[0];if(!f)return; try{const obj=JSON.parse(await f.text()); ANSWERS={...ANSWERS,...obj}; localStorage.setItem('myn_civil_answers',JSON.stringify(ANSWERS)); alert('정답 파일을 반영했습니다.'); $('modal').classList.remove('show'); buildQueue(); nextQuestion();}catch(err){alert('JSON 형식이 올바르지 않습니다.');}};
+async function init(){
+  try{
+    BANK=await fetch('./questions.json').then(r=>r.json());
+    const remote=await fetch('./answers.json').then(r=>r.json());
+    ANSWERS=JSON.parse(localStorage.getItem('myn_civil_answers')||'null')||remote;
+  }catch(e){document.body.innerHTML='<div style="padding:30px;font-family:sans-serif">데이터를 불러오지 못했습니다.</div>';return}
+  updateStats(); buildQueue(); nextQuestion();
+  if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});
 }
-
-$("next").onclick = () => nextSentence();
-$("again").onclick = () => { generated=null; render(); generateChoices(); };
-$("settings").onclick = () => {
-  $("apiKey").value = sessionStorage.getItem("mync_api_key") || localStorage.getItem("mync_api_key") || "";
-  $("modal").classList.add("show");
-};
-$("close").onclick = () => $("modal").classList.remove("show");
-$("save").onclick = () => {
-  const key = $("apiKey").value.trim();
-  if(key) {
-    localStorage.setItem("mync_api_key",key);
-    sessionStorage.setItem("mync_api_key",key);
-  } else {
-    localStorage.removeItem("mync_api_key");
-    sessionStorage.removeItem("mync_api_key");
-  }
-  $("modal").classList.remove("show");
-  if(current) generateChoices();
-};
-
-newQueue();
-nextSentence();
+init();
 </script>
 </body>
 </html>

@@ -1,0 +1,7244 @@
+{
+  "1:0": {
+    "options": [
+      "임의규정과 다른 관습이 있고 당사자의 의사가 명확하지 아니한",
+      "강행규정과 다른 관습이 있고 당사자의 의사가 명확한",
+      "관습법이 성립한",
+      "당사자가 명시적으로 배척한"
+    ],
+    "answerIndex": 0,
+    "explanation": "민법상 사실인 관습은 임의규정과 다른 관습이 있고 당사자의 의사가 명확하지 않은 경우에 적용된다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "1:1": {
+    "options": [
+      "법률해석 기준",
+      "민법의 법원",
+      "강행규정",
+      "소멸시효 중단사유"
+    ],
+    "answerIndex": 0,
+    "explanation": "사실인 관습은 법률행위의 해석 기준이 될 수 있다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "2:0": {
+    "options": [
+      "선순위 상속인이 있으면 후순위 상속인은 이해관계인이 아니다",
+      "후순위 상속인은 언제나 실종선고 청구의 이해관계인이다",
+      "후순위 상속인은 실종선고가 있으면 선순위가 된다",
+      "후순위 상속인은 실종선고와 무관하게 항상 이해관계인이다"
+    ],
+    "answerIndex": 0,
+    "explanation": "선순위 상속인이 존재하는 경우 후순위 상속인은 실종선고 청구의 이해관계인이 아니다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "3:0": {
+    "options": [
+      "특별실종 1년 / 일반실종 5년",
+      "특별실종 6개월 / 일반실종 5년",
+      "특별실종 1년 / 일반실종 10년",
+      "특별실종 5년 / 일반실종 1년"
+    ],
+    "answerIndex": 0,
+    "explanation": "특별실종은 1년, 일반실종은 5년이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "4:0": {
+    "options": [
+      "속임수로써 자기를 능력자로 믿게 하거나 법정대리인의 동의가 있는 것으로 믿게 하는 것",
+      "단순히 계약상 의무를 이행하지 않는 것",
+      "상대방에게 정신적 손해를 주는 것",
+      "법원의 허가 없이 법률행위를 하는 것"
+    ],
+    "answerIndex": 0,
+    "explanation": "제한능력자가 속임수로 자신을 능력자로 믿게 한 경우 그 행위를 취소할 수 없다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "5:0": {
+    "options": [
+      "본인의 의사에 반하여 할 수 없는 것은 특정후견심판이고, 할 수 있는 것은 한정·성년후견심판이다",
+      "본인의 의사에 반하여 할 수 없는 것은 성년후견심판이고, 할 수 있는 것은 특정후견심판이다",
+      "모든 후견심판은 본인의 의사에 반하여 할 수 없다",
+      "모든 후견심판은 본인의 의사에 반하여 할 수 있다"
+    ],
+    "answerIndex": 0,
+    "explanation": "가정법원은 본인의 의사에 반하여 특정후견심판을 할 수 없고, 한정·성년후견은 가능하다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "6:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "7:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "8:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "9:0": {
+    "options": [
+      "상속·유증·인지·불법행위에 따른 손해배상",
+      "상속·매매·임대차·불법행위",
+      "유증·계약·상계·혼인",
+      "상속·취소·해제·손해배상"
+    ],
+    "answerIndex": 0,
+    "explanation": "태아는 개별 규정에 따라 상속·유증·인지·불법행위 손해배상에서 이미 출생한 것으로 본다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "10:0": {
+    "options": [
+      "선의의 제3자 보호·법정추인·표현대리",
+      "소유권이전등기·상속·유증",
+      "취소권·해제권·해지권",
+      "상계·변제·공탁"
+    ],
+    "answerIndex": 0,
+    "explanation": "절대적 무효에서는 선의 제3자 보호, 법정추인, 표현대리가 인정되지 않는 것으로 정리된다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "11:0": {
+    "options": [
+      "권리 자체가 소멸한다",
+      "권리의 실현이 제한될 뿐 권리 자체가 소멸하는 것은 아니다",
+      "항상 손해배상청구권으로 전환된다",
+      "상대방의 동의가 있으면 자동 소멸한다"
+    ],
+    "answerIndex": 1,
+    "explanation": "권리남용의 효과는 권리 자체의 소멸이 아니라 권리행사가 허용되지 않는 데 있다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "12:0": {
+    "options": [
+      "주물의 구성부분·타인 소유 물건·주물 자체의 효용과 직접 관계없는 물건",
+      "주물과 동일 소유자이고 독립한 모든 물건",
+      "주물의 효용과 직접 관계가 있는 부속물",
+      "주물과 무관한 모든 사용대가"
+    ],
+    "answerIndex": 0,
+    "explanation": "종물은 독립한 물건이고 동일 소유자에게 속하며 주물 자체의 효용과 직접 관계가 있어야 한다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "13:0": {
+    "options": [
+      "용익물권",
+      "저당권",
+      "소유권보존등기",
+      "담보물권 전부"
+    ],
+    "answerIndex": 0,
+    "explanation": "1필 토지 일부에 분필절차 없이 설정할 수 있는 것은 용익물권이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "14:0": {
+    "options": [
+      "수목은 토지소유자 / 성숙한 농작물은 경작자",
+      "수목은 식재자 / 농작물은 토지소유자",
+      "둘 다 토지소유자",
+      "둘 다 경작자"
+    ],
+    "answerIndex": 0,
+    "explanation": "권원 없이 심은 수목은 원칙적으로 토지소유자에게 귀속되지만, 성숙하여 독립한 농작물은 경작자에게 귀속된다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "14:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "14-1:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "15:0": {
+    "options": [
+      "용법에 의하여 수취하는 산출물",
+      "사용대가로 받는 금전 기타 물건",
+      "사용대가로 받는 금전",
+      "자연적으로 분리되는 모든 물건"
+    ],
+    "answerIndex": 0,
+    "explanation": "천연과실은 물건의 용법에 의하여 수취하는 산출물, 법정과실은 물건의 사용대가로 받는 금전 기타 물건이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "15:1": {
+    "options": [
+      "사용대가로 받는 금전 기타 물건",
+      "용법에 의하여 수취하는 산출물",
+      "물건의 원본 자체",
+      "소유권 이전의 대가"
+    ],
+    "answerIndex": 0,
+    "explanation": "법정과실은 물건의 사용대가로 받는 금전 기타 물건이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "16:0": {
+    "options": [
+      "매수인이 매매대금을 완납한 경우",
+      "계약금을 지급한 경우",
+      "목적물이 아직 인도되지 않은 경우",
+      "매도인이 이행지체에 빠진 경우만"
+    ],
+    "answerIndex": 0,
+    "explanation": "매매대금 완납 후에는 목적물 인도 전이라도 판례상 과실이 매수인에게 귀속될 수 있다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "17:0": {
+    "options": [
+      "확정성·실현가능성·적법성·사회적 타당성",
+      "확정성·고의·과실·위법성",
+      "현실성·과실·공시성·무상성",
+      "불확실성·적법성·공시성·타당성"
+    ],
+    "answerIndex": 0,
+    "explanation": "법률행위의 내용은 확정성·실현가능성·적법성·사회적 타당성을 갖추어야 한다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "18:0": {
+    "options": [
+      "법률행위시",
+      "효력 발생시",
+      "소송제기시",
+      "판결선고시"
+    ],
+    "answerIndex": 0,
+    "explanation": "반사회질서 여부는 원칙적으로 법률행위시를 기준으로 판단한다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "18:1": {
+    "options": [
+      "효력 발생한 때",
+      "법률행위시",
+      "손해 발생시",
+      "소송제기시"
+    ],
+    "answerIndex": 0,
+    "explanation": "반사회질서 여부를 효력 발생시를 기준으로 보는 것은 아니다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "19:0": {
+    "options": [
+      "절대적 무효",
+      "상대적 무효",
+      "취소할 수 있는 행위",
+      "유동적 무효"
+    ],
+    "answerIndex": 0,
+    "explanation": "반사회질서 법률행위는 절대적 무효이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "20:0": {
+    "options": [
+      "궁박·경솔·무경험 중 하나 + 현저한 불공정 + 상대방의 악의(이용의사)",
+      "고의·과실·위법성·손해",
+      "단순한 경제적 불이익만",
+      "경솔·무경험만 있고 불공정은 불필요"
+    ],
+    "answerIndex": 0,
+    "explanation": "불공정한 법률행위는 궁박·경솔·무경험 중 하나로 현저하게 공정을 잃고 상대방이 그 사정을 이용하려는 경우를 말한다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "21:0": {
+    "options": [
+      "강제집행 면탈 목적 허위 근저당, 양도소득세 회피 목적 약정, 해외파견 경비 배상약정 등 출처의 유효 사례들",
+      "도박자금 대여, 형사 성공보수약정, 부첩관계 종료 조건부 증여",
+      "보험금 부정취득 목적 계약, 허위진술 대가 약정, 과도한 위약벌",
+      "도박자금 대여, 형사 성공보수약정, 변호사 아닌 자의 소송물 일부양도"
+    ],
+    "answerIndex": 0,
+    "explanation": "출처에서 반사회적 법률행위가 아니라고 정리된 사례들의 묶음이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "22:0": {
+    "options": [
+      "사인의 공법행위와 소송행위",
+      "모든 재산행위와 소송행위",
+      "물권행위와 채권행위",
+      "상속행위와 유언"
+    ],
+    "answerIndex": 0,
+    "explanation": "의사표시 규정은 재산행위가 아닌 사인의 공법행위·소송행위에는 적용되지 않는 것으로 정리된다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "23:0": {
+    "options": [
+      "진의",
+      "동기",
+      "표시",
+      "의사능력"
+    ],
+    "answerIndex": 0,
+    "explanation": "진의와 표시의 불일치이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "23:1": {
+    "options": [
+      "표시",
+      "진의",
+      "동기",
+      "효과"
+    ],
+    "answerIndex": 0,
+    "explanation": "진의와 표시가 불일치한다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "23:2": {
+    "options": [
+      "표시된 대로",
+      "반드시 무효로",
+      "언제나 취소로",
+      "법원의 허가대로"
+    ],
+    "answerIndex": 0,
+    "explanation": "진의 아닌 의사표시는 원칙적으로 표시된 대로 효력이 발생한다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "23:3": {
+    "options": [
+      "상대방이 표의자의 진의 아님을 알았거나 알 수 있었을",
+      "표의자가 마음속으로 후회한",
+      "제3자가 이익을 얻은",
+      "표의자가 미성년자인"
+    ],
+    "answerIndex": 0,
+    "explanation": "상대방이 진의 아님을 알았거나 알 수 있었던 경우 무효이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "24:0": {
+    "options": [
+      "선의의 제3자에게 대항",
+      "악의의 제3자에게 대항",
+      "항상 법원에 주장",
+      "추인할 수"
+    ],
+    "answerIndex": 0,
+    "explanation": "의사표시의 취소는 원칙적으로 선의의 제3자에게 대항할 수 없다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "24:1": {
+    "options": [
+      "선의의 제3자",
+      "악의의 제3자",
+      "제3채무자",
+      "법정대리인"
+    ],
+    "answerIndex": 0,
+    "explanation": "선의의 제3자는 보호된다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "24:2": {
+    "options": [
+      "무과실이 요건은",
+      "선의가 요건도 아니다",
+      "법원의 허가가 요건인",
+      "고의가 반드시 필요한"
+    ],
+    "answerIndex": 0,
+    "explanation": "선의의 제3자 보호에서 무과실은 요건이 아니다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "25:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "26:0": {
+    "options": [
+      "불법원인급여",
+      "표현대리",
+      "법정추인",
+      "채권자대위"
+    ],
+    "answerIndex": 0,
+    "explanation": "통정허위표시로 무효인 법률행위는 불법원인급여에 해당하지 않는다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "27:0": {
+    "options": [
+      "경매",
+      "매매",
+      "교환",
+      "임대차"
+    ],
+    "answerIndex": 0,
+    "explanation": "불공정한 법률행위 규정은 경매에는 적용되지 않는다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "27:1": {
+    "options": [
+      "무상행위",
+      "쌍무계약",
+      "유상행위",
+      "임대차"
+    ],
+    "answerIndex": 0,
+    "explanation": "반대급부가 없는 무상행위에는 불공정한 법률행위 규정을 적용하지 않는다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "28:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "29:0": {
+    "options": [
+      "시가에 대한 착오",
+      "토지 현황·경계에 대한 착오",
+      "법률행위 내용의 중요부분 착오",
+      "표시상의 착오"
+    ],
+    "answerIndex": 0,
+    "explanation": "출처는 시가에 대한 착오는 중요부분 착오가 아니라고 정리한다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "30:0": {
+    "options": [
+      "공장경영자가 공장설립 가능 여부를 관할관청에 확인하지 않은 경우",
+      "매수인이 토지와 지적도의 일치 여부를 확인한 경우",
+      "상대방이 착오를 알고 이용한 경우",
+      "토지의 현황에 관한 중대한 착오"
+    ],
+    "answerIndex": 0,
+    "explanation": "출처에서는 공장건축 가능 여부를 알아보지 않은 것을 중과실 사례로 정리한다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "31:0": {
+    "options": [
+      "상대방의 기망·2단의 고의·표의자의 동기 착오 및 의사표시·기망과 착오의 인과관계",
+      "손해·위법성·고의·과실",
+      "상대방의 착오와 손해만",
+      "강박·공포·손해·고의"
+    ],
+    "answerIndex": 0,
+    "explanation": "사기 취소요건 4가지를 묶어 출제한 선택지이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "32:0": {
+    "options": [
+      "기망해서 착오에 빠뜨리려는 고의 + 그 착오로 의사표시를 하게 하려는 고의",
+      "손해를 발생시키려는 고의만",
+      "계약을 해제하려는 고의 + 손해배상 고의",
+      "강박을 행사할 고의만"
+    ],
+    "answerIndex": 0,
+    "explanation": "2단의 고의는 기망으로 착오에 빠뜨리려는 고의와 그 착오로 의사표시하게 하려는 고의이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "33:0": {
+    "options": [
+      "아파트 분양자가 인근 쓰레기 매립장 건설예정 사실을 고지하지 않은 경우",
+      "상품 광고에서 통상적인 과장이 있는 경우",
+      "교환계약에서 자기 물건의 시가를 높게 말한 경우",
+      "시가를 말하지 않은 모든 경우"
+    ],
+    "answerIndex": 0,
+    "explanation": "신의칙상 고지의무가 있는 사실을 고지하지 않는 부작위가 기망행위가 될 수 있다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "34:0": {
+    "options": [
+      "상대방 강박·2단의 고의·표의자의 공포 및 의사표시·강박과 공포의 인과관계",
+      "손해·과실·위법성·상당인과관계",
+      "상대방의 시가 고지·착오·손해·과실",
+      "강박만 있으면 언제나 취소"
+    ],
+    "answerIndex": 0,
+    "explanation": "강박 취소요건 4가지를 묶어 출제한 선택지이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "35:0": {
+    "options": [
+      "무효",
+      "취소",
+      "유효",
+      "추인"
+    ],
+    "answerIndex": 0,
+    "explanation": "강박으로 의사결정 자유가 완전히 박탈되면 무효이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "35:1": {
+    "options": [
+      "취소",
+      "무효",
+      "유효",
+      "당연추인"
+    ],
+    "answerIndex": 0,
+    "explanation": "강박으로 의사결정 자유가 제한된 상태의 의사표시는 취소할 수 있다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "36:0": {
+    "options": [
+      "상대방의 피용자",
+      "상대방의 대리인",
+      "상대방 본인",
+      "포괄승계인"
+    ],
+    "answerIndex": 0,
+    "explanation": "상대방의 피용자는 제3자에 해당한다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "36:1": {
+    "options": [
+      "상대방의 대리인",
+      "상대방의 피용자",
+      "독립된 제3자",
+      "양수인"
+    ],
+    "answerIndex": 0,
+    "explanation": "상대방의 대리인은 상대방과 동일시할 수 있어 제3자가 아니다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "37:0": {
+    "options": [
+      "행위능력",
+      "의사능력",
+      "대리권",
+      "소유권"
+    ],
+    "answerIndex": 0,
+    "explanation": "대리인은 행위능력자임을 요하지 않는다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "38:0": {
+    "options": [
+      "공동대리",
+      "각자대리",
+      "복대리",
+      "표현대리"
+    ],
+    "answerIndex": 0,
+    "explanation": "대리인이 수인인 경우 공동대리가 원칙이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "39:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "39:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "40:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "41:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "42:0": {
+    "options": [
+      "대리인의 대리인",
+      "본인의 대리인",
+      "본인의 피용자만",
+      "제3자의 대리인"
+    ],
+    "answerIndex": 0,
+    "explanation": "복대리인은 대리인의 대리인이 아니라 본인의 대리인이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "43:0": {
+    "options": [
+      "복임권",
+      "추인권",
+      "취소권",
+      "해제권"
+    ],
+    "answerIndex": 0,
+    "explanation": "임의대리인은 원칙적으로 복임권이 없다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "43:1": {
+    "options": [
+      "승낙",
+      "통지",
+      "등기",
+      "추인"
+    ],
+    "answerIndex": 0,
+    "explanation": "복대리인은 본인의 승낙이 있으면 선임할 수 있다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "43:2": {
+    "options": [
+      "부득이한 사유",
+      "경제적 이익",
+      "상대방의 요청",
+      "등기"
+    ],
+    "answerIndex": 0,
+    "explanation": "본인의 승낙이 없더라도 부득이한 사유가 있으면 복대리가 가능하다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "44:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "45:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "46:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "47:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "48:0": {
+    "options": [
+      "대리권 수여표시 + 상대방의 선의·무과실",
+      "기본대리권 + 권한초과 + 정당한 이유",
+      "대리권 소멸 + 악의의 상대방",
+      "본인 추인 + 상대방 악의"
+    ],
+    "answerIndex": 0,
+    "explanation": "대리권 수여표시에 의한 표현대리는 대리권 수여표시와 상대방의 선의·무과실이 핵심이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "49:0": {
+    "options": [
+      "기본대리권 존재 + 권한초과행위 + 제3자의 정당한 이유",
+      "대리권 수여표시 + 악의",
+      "대리권 소멸 + 과실",
+      "복대리 + 본인 추인"
+    ],
+    "answerIndex": 0,
+    "explanation": "권한을 넘은 표현대리는 기본대리권·권한초과·정당한 이유가 필요하다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "50:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "50:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "51:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "51:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "52:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "53:0": {
+    "options": [
+      "허가협력의무 / 매매대금 지급의무",
+      "소유권이전등기 / 계약금 지급",
+      "처분금지가처분 / 잔금 지급",
+      "담보제공 / 매매대금 지급"
+    ],
+    "answerIndex": 0,
+    "explanation": "토지거래허가구역의 허가협력의무와 매수인의 대금지급의무는 동시이행관계가 아니다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "53:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "54:0": {
+    "options": [
+      "가정적 의사",
+      "실제 의사",
+      "추정적 고의",
+      "현재의 의사"
+    ],
+    "answerIndex": 0,
+    "explanation": "일부무효에서 남은 부분을 유지하려는 당사자의 가정적 의사를 기준으로 판단한다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "54:1": {
+    "options": [
+      "실제 의사",
+      "가정적 의사",
+      "법원의 의사",
+      "제3자의 의사"
+    ],
+    "answerIndex": 0,
+    "explanation": "실제 의사가 아니라 가정적 의사가 기준이 된다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "55:0": {
+    "options": [
+      "새로운 법률행위",
+      "원래 법률행위의 소급 유효",
+      "법정추인",
+      "무효의 확정"
+    ],
+    "answerIndex": 0,
+    "explanation": "무효행위의 추인은 원칙적으로 그 무효행위 자체를 살리는 것이 아니라 새로운 법률행위로 본다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "56:0": {
+    "options": [
+      "상대방",
+      "법원",
+      "제3자",
+      "등기소"
+    ],
+    "answerIndex": 0,
+    "explanation": "취소의 의사표시는 상대방 있는 경우 상대방에게 한다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "57:0": {
+    "options": [
+      "제척기간",
+      "소멸시효",
+      "출소기간",
+      "정지기간"
+    ],
+    "answerIndex": 0,
+    "explanation": "취소권의 행사기간은 제척기간이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "57:1": {
+    "options": [
+      "취소할 수 있는 날",
+      "법률행위를 한 날",
+      "손해 발생일",
+      "판결 확정일"
+    ],
+    "answerIndex": 0,
+    "explanation": "취소권은 추인할 수 있는 날부터 계산한다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "57:2": {
+    "options": [
+      "3",
+      "5",
+      "10",
+      "20"
+    ],
+    "answerIndex": 0,
+    "explanation": "추인할 수 있는 날부터 3년이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "57:3": {
+    "options": [
+      "법률행위를 한",
+      "취소 의사표시를 한",
+      "손해가 발생한",
+      "소송을 제기한"
+    ],
+    "answerIndex": 0,
+    "explanation": "법률행위를 한 날부터도 기간이 진행된다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "57:4": {
+    "options": [
+      "10",
+      "3",
+      "5",
+      "20"
+    ],
+    "answerIndex": 0,
+    "explanation": "법률행위를 한 날부터 10년이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "58:0": {
+    "options": [
+      "권리를 행사할 수 있는 날",
+      "불법행위를 안 날",
+      "판결 확정일",
+      "청구한 날"
+    ],
+    "answerIndex": 0,
+    "explanation": "부당이득반환청구권은 일반 채권으로서 권리를 행사할 수 있는 때부터 소멸시효가 진행된다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "58:1": {
+    "options": [
+      "10",
+      "3",
+      "5",
+      "20"
+    ],
+    "answerIndex": 0,
+    "explanation": "일반 채권의 소멸시효 기간은 10년이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "59:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "59:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "59:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "60:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "61:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "62:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "63:0": {
+    "options": [
+      "권리를 행사할 수 있는 때",
+      "권리를 행사한 때",
+      "손해를 안 때",
+      "소송을 제기한 때"
+    ],
+    "answerIndex": 0,
+    "explanation": "민법 제166조 제1항의 원칙이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "64:0": {
+    "options": [
+      "조건 성취시",
+      "법률행위시",
+      "소송제기시",
+      "판결선고시"
+    ],
+    "answerIndex": 0,
+    "explanation": "정지조건부 권리는 조건이 성취된 때부터 소멸시효가 진행된다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "64:1": {
+    "options": [
+      "확정기한 도래시",
+      "채권자가 안 때",
+      "계약일",
+      "판결일"
+    ],
+    "answerIndex": 0,
+    "explanation": "확정기한부 권리는 확정기한이 도래한 때부터 진행된다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "64:2": {
+    "options": [
+      "기한이 객관적으로 도래한 때",
+      "채권자가 안 때",
+      "계약 체결일",
+      "청구한 때"
+    ],
+    "answerIndex": 0,
+    "explanation": "불확정기한부 채권도 기한이 객관적으로 도래한 때부터 진행된다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "64:3": {
+    "options": [
+      "선택권을 행사할 수 있을 때",
+      "선택권을 실제 행사한 때",
+      "계약 체결일",
+      "목적물을 인도한 때"
+    ],
+    "answerIndex": 0,
+    "explanation": "선택채권은 선택권을 행사할 수 있을 때부터 소멸시효가 진행된다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "65:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "65:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "65-1:0": {
+    "options": [
+      "10년",
+      "3년",
+      "5년",
+      "20년"
+    ],
+    "answerIndex": 0,
+    "explanation": "일반 채권의 소멸시효 기간은 10년이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "66:0": {
+    "options": [
+      "여관·음식점 등 숙박료·음식료·입장료 등",
+      "모든 부동산 매매대금",
+      "소유권 자체",
+      "상속재산"
+    ],
+    "answerIndex": 0,
+    "explanation": "1년 단기소멸시효에 해당하는 대표 사례들이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "67:0": {
+    "options": [
+      "보증채무",
+      "주채무",
+      "소유권",
+      "제3채무"
+    ],
+    "answerIndex": 0,
+    "explanation": "주채무의 소멸시효가 연장되더라도 보증채무가 연장되는 것은 아니다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "67:1": {
+    "options": [
+      "연장",
+      "소멸",
+      "중단",
+      "정지"
+    ],
+    "answerIndex": 0,
+    "explanation": "주채무의 시효연장은 보증채무의 시효기간을 연장하지 않는다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "68:0": {
+    "options": [
+      "보증채무",
+      "주채무자 재산",
+      "제3자의 권리",
+      "상속권"
+    ],
+    "answerIndex": 0,
+    "explanation": "주채무의 소멸시효 완성은 보증채무에도 효력이 미친다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "68:1": {
+    "options": [
+      "소멸",
+      "연장",
+      "정지",
+      "중단"
+    ],
+    "answerIndex": 0,
+    "explanation": "주채무의 소멸시효가 완성되면 보증채무도 소멸한다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "69:0": {
+    "options": [
+      "채권자대위소송의 제3채무자·채무자의 일반채권자·후순위저당권자",
+      "물상보증인·부동산매수인·제3취득자",
+      "채권자취소권의 수익자·물상보증인·부동산매수인",
+      "보증인·저당권자·채권양수인"
+    ],
+    "answerIndex": 0,
+    "explanation": "출처에서 원용권자가 아닌 자로 정리한 세 가지이다.",
+    "verified": true,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "70:0": {
+    "options": [
+      "청구·압류/가압류/가처분·승인·재판상 청구의 효력 발생을 위한 법정절차",
+      "상계·공탁·변제·경개",
+      "해제·해지·취소·추인",
+      "매매·교환·증여·임대차"
+    ],
+    "answerIndex": 0,
+    "explanation": "출처는 소멸시효 중단 사유로 청구, 압류·가압류·가처분, 승인을 정리하고 있다. 문제의 4개 항목 표현은 출처에 맞춰 후속 수정 가능하다.",
+    "verified": false,
+    "source": "민법 파이널 리뷰 취합본_292.pdf"
+  },
+  "71:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "71:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "71:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "72:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "73:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "74:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "74:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "75:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "75:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "76:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "76:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "77:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "77:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "78:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "79:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "80:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "81:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "81:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "82:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "82:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "83:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "83:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "84:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "85:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "85:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "85:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "85:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "85:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "85:5": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "86:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "87:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "87:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "88:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "89:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "90:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "90:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "91:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "92:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "93:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "93:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "93:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "94:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "95:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "96:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "96:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "97:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "97:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "97:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "97:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "98:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "99:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "99:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "99:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "100:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "100:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "100:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "101:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "101:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "101:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "102:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "103:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "104:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "105:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "106:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "107:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "108:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "109:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "110:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "111:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "112:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "112:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "112:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "113:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "113:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "114:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "115:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "115:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "115:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "116:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "116:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "117:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "118:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "118:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "119:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "119:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "119:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "120:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "121:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "122:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "123:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "124:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "125:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "126:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "127:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "128:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "129:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "130:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "131:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "132:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "133:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "134:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "135:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "136:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "137:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "138:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "139:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "140:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "141:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "142:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "143:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "144:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "145:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "146:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "147:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "148:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "149:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "150:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "150:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "150:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "150:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "151:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "152:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "152:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "152:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "153:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "154:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "155:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "155:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "156:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "157:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "157:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "158:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "159:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "159:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "159:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "159:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "160:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "160:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "160:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "161:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "161:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "162:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "162:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "162:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "163:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "163:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "164:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "164:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "165:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "165:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "166:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "166:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "167:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "167:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "168:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "168:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "168:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "168:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "169:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "170:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "171:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "171:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "172:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "173:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "174:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "174:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "174:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "175:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "175:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "175:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "176:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "177:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "177:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "178:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "178:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "178:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "179:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "179:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "180:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "181:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "181:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "182:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "182:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "183:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "184:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "185:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "185:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "186:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "187:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "188:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "188:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "188:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "189:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "189:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "190:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "190:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "190:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "190:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "191:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "191:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "192:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "192:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "192:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "193:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "194:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "194:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "194:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "195:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "195:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "196:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "196:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "196:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "197:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "197:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "198:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "198:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "198:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "198:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "199:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "199:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "199:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "199:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "200:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "201:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "201:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "202:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "203:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "204:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "205:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "206:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "207:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "208:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "209:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "209:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "210:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "210:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "210:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "211:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "211:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "212:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "212:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "212:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "212:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "212:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "213:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "214:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "214:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "214:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "214:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "215:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "216:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "216:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "216:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "216:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "216:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "216:5": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "216:6": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "216:7": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "216:8": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "217:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "217:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "218:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "219:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "220:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "220:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "220:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "220:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "221:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "222:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "223:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "224:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "224:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "225:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "225:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "226:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "226:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "227:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "228:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "229:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "230:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "230:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "230:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "231:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "231:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "231:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "231:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "232:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "233:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "233:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "233:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "234:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "234:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "235:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "235:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "236:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "236:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "237:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "238:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "239:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "239:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "239:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "239:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "240:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "240:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "241:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "241:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "241:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "241:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "241:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "242:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "242:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "243:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "243:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "244:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "244:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "245:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "246:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "247:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "247:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "248:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "249:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "249:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "250:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "250:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "250:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "251:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "252:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "252:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "253:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "253:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "254:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "255:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "256:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "256:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "256:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "256:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "256:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "257:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "258:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "259:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "260:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "260:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "261:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "261:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "262:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "263:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "264:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "265:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "265:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "265:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "265:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "265:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "266:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "266:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "266:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "266:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "266:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "266:5": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "266:6": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "267:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "267:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "268:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "268:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "269:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "270:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "271:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "271:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "272:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "272:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "273:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "274:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "274:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "274:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "275:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "276:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "276:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "276:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "276:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "277:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "277:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "278:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "278:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "278:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "278:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "279:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "279:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "280:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "281:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "281:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "281:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "281:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "281:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "281:5": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "282:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "282:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "283:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "283:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "283:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "283:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "283:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "283:5": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "284:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "284:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "285:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "286:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "287:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "287:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "288:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "288:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "289:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "290:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "290:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "290:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "290:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "291:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "291:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "292:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "293:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "293:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "294:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "295:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "295:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "296:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "296:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "296:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "296:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "297:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "297:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "298:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "298:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "298:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "298:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "298:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "298:5": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "299:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "299:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "300:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "300:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "301:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "301:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "302:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "303:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "303:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "303:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "304:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "304:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "305:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "306:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "307:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "307:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "307:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "307:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "308:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "309:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "310:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "310:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "311:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "311:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "311:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "311:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "312:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "313:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "313:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "313:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "314:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "314:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "314:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "314:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "315:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "316:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "317:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "317:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "317:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "317:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "318:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "318:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "319:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "319:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "320:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "321:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "321:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "322:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "323:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "324:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "325:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "325:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "326:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "326:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "326:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "327:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "328:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "328:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "328:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "328:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "329:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "329:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "330:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "331:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "331:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "332:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "332:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "332:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "332:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "333:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "333:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "334:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "334:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "335:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "336:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "337:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "337:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "338:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "339:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "339:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "340:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "341:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "341:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "341:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "342:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "342:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "342:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "343:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "343:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "344:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "345:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "346:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "347:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "348:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "349:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "349:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "350:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "350:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "351:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "352:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "352:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "353:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "354:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "354:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "354:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "354:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "354:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "354:5": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "355:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "355:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "356:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "357:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "357:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "358:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "359:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "360:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "361:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "362:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "362:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "363:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "363:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "363:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "364:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "364:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "365:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "366:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "366:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "367:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "368:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "368:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "368:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "369:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "369:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "370:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "371:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "372:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "372:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "373:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "373:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "374:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "375:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "376:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "376:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "376:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "377:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "378:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "378:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "378:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "379:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "380:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "380:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "381:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "382:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "382:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "383:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "384:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "385:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "385:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "386:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "387:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "388:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "388:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "388:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "388:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "389:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "390:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "390:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "391:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "391:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "391:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "392:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "392:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "393:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "394:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "394:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "395:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "395:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "395:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "395:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "396:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "396:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "397:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "398:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "399:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "400:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "401:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "401:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "401:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "402:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "402:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "402:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "402:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "403:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "404:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "405:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "405:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "406:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "406:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "406:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "406:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "406:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "406:5": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "406:6": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "406:7": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "406:8": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "406:9": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "407:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "408:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "408:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "409:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "409:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "409:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "410:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "411:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "411:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "412:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "412:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "412:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "413:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "414:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "415:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "415:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "416:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "416:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "417:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "417:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "418:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "419:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "419:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "419:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "420:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "420:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "421:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "422:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "423:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "423:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "424:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "424:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "424:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "424:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "425:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "426:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "427:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "427:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "428:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "429:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "430:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "430:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "430:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "430:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "431:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "431:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "431:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "431:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "432:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "433:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "433:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "434:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "435:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "435:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "436:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "437:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "437:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "437:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "437:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "437:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "438:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "439:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "440:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "441:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "442:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "443:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "444:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "445:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "446:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "447:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "448:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "449:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "450:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "451:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "451:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "452:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "452:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "453:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "453:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "454:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "455:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "456:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "457:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "458:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "459:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "459:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "460:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "460:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "461:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "462:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "462:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "463:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "464:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "465:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "465:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "465:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "466:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "467:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "468:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "469:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "470:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "471:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "472:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "472:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "473:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "474:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "475:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "475:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "475:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "475:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "476:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "477:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "477:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "478:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "479:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "480:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "480:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "480:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "481:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "482:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "482:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "483:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "484:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "484:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "485:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "486:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "486:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "486:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "486:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "487:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "488:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "488:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "489:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "489:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "489:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "489:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "489:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "490:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "490:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "490:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "490:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "490:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "491:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "492:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "492:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "492:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "493:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "493:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "493:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "493:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "494:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "494:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "495:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "496:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "497:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "497:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "498:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "499:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "499:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "499:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "499:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "499:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "499:5": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "499:6": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "499:7": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "500:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "500:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "500:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "500:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "501:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "502:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "503:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "504:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "505:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "505:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "506:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "506:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "506:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "506:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "507:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "507:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "508:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "509:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "510:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "510:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "510:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "511:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "511:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "511:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "511:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "512:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "512:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "512:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "512:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "512:4": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "512:5": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "513:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "513:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "514:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "514:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "515:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "516:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "516:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "516:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "517:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "517:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "518:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "519:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "520:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "520:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "520:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "521:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "521:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "521:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "522:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "522:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "523:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "524:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "524:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "524:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "524:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "525:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "525:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "526:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "527:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "527:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "528:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "528:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "529:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "529:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "529:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "529:3": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "530:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "530:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "530:2": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "531:0": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  },
+  "531:1": {
+    "options": [],
+    "answerIndex": null,
+    "explanation": "",
+    "verified": false,
+    "source": "미등록 — 나중에 정답지로 업데이트"
+  }
+}
