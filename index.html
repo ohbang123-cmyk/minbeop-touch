@@ -2,89 +2,121 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <meta name="theme-color" content="#111827">
-<meta name="description" content="변리사 민법·특허법 O/X 문제풀이">
-<link rel="manifest" href="manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="법학 터치">
+<link rel="manifest" href="manifest.webmanifest">
 <title>민법 터치</title>
-<link rel="stylesheet" href="style.css">
+<style>
+:root{--bg:#f5f6fa;--card:#fff;--ink:#111827;--muted:#6b7280;--line:#e5e7eb;--good:#047857;--goodbg:#ecfdf5;--bad:#b91c1c;--badbg:#fef2f2}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Apple SD Gothic Neo","Noto Sans KR",sans-serif}button,input,select{font:inherit}button{touch-action:manipulation}
+.app{max-width:760px;margin:0 auto;min-height:100dvh}header{position:sticky;top:0;z-index:10;background:rgba(245,246,250,.95);backdrop-filter:blur(14px);padding:14px 16px 10px;border-bottom:1px solid var(--line)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:10px}.brand{font-size:20px;font-weight:850}.headBtns{display:flex;gap:7px}.iconBtn{width:42px;height:42px;border:0;border-radius:13px;background:#fff;box-shadow:0 1px 5px rgba(0,0,0,.06)}
+.progress{height:7px;background:#e5e7eb;border-radius:99px;overflow:hidden;margin-top:10px}.progress>div{height:100%;background:#111827;width:0;transition:.2s}
+main{padding:15px}.toolbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}.toolbar select,.toolbar button{width:100%;border:1px solid var(--line);background:#fff;border-radius:13px;padding:11px 10px;font-weight:750}
+.mode{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}.mode button{border:1px solid var(--line);background:#fff;border-radius:13px;padding:11px 10px;font-weight:800}.mode button.active{background:#111827;color:#fff;border-color:#111827}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:12px}.stat{background:#fff;border:1px solid var(--line);border-radius:14px;padding:8px;text-align:center}.stat b{display:block;font-size:18px}.stat span{font-size:10px;color:var(--muted)}
+.card{background:#fff;border:1px solid var(--line);border-radius:21px;padding:17px;box-shadow:0 7px 24px rgba(17,24,39,.05)}.meta{display:flex;justify-content:space-between;color:var(--muted);font-size:13px;margin-bottom:9px}.step{font-size:13px;font-weight:800;margin-bottom:10px}
+.question{font-size:18px;line-height:1.72;font-weight:730;white-space:pre-wrap}.currentBlank{background:#111827;color:#fff;padding:1px 5px;border-radius:6px}.doneBlank{background:#e5e7eb;color:#374151;padding:1px 5px;border-radius:6px}
+.choices{margin-top:15px}.choice{width:100%;text-align:left;border:2px solid #e5e7eb;background:#fff;border-radius:16px;padding:14px;margin:8px 0;line-height:1.45;cursor:pointer}.choice.correct{border-color:var(--good);background:var(--goodbg);color:#065f46}.choice.wrong{border-color:var(--bad);background:var(--badbg);color:#991b1b}.choice.dim{opacity:.5}.choice:disabled{cursor:default}.num{display:inline-grid;place-items:center;width:30px;height:30px;background:#f3f4f6;border-radius:9px;margin-right:8px;font-weight:850}
+.ox{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}.ox button{min-height:110px;border-radius:18px;border:2px solid #e5e7eb;background:#fff;font-size:32px;font-weight:850}.ox button.correct{border-color:var(--good);background:var(--goodbg);color:#065f46}.ox button.wrong{border-color:var(--bad);background:var(--badbg);color:#991b1b}.ox button.dim{opacity:.45}.ox button:disabled{cursor:default}
+.feedback{display:none;margin-top:12px;border-radius:14px;padding:12px;line-height:1.5}.feedback.show{display:block}.feedback.good{background:var(--goodbg)}.feedback.bad{background:var(--badbg)}.explain{margin-top:6px;font-size:14px;color:#374151}.src{margin-top:5px;font-size:12px;color:var(--muted)}
+.controls{display:flex;gap:8px;margin-top:12px}.ctrl{flex:1;padding:13px;border:1px solid var(--line);border-radius:14px;background:#fff;font-weight:800}.primary{background:#111827;color:#fff;border-color:#111827}.notice{font-size:12px;color:var(--muted);line-height:1.5;margin-top:10px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:15px;margin-top:12px}.panel h3{margin:0 0 10px}.list{max-height:420px;overflow:auto}.item{padding:11px 0;border-bottom:1px solid #eee}.item:last-child{border-bottom:0}.small{font-size:12px;color:var(--muted)}.pill{display:inline-block;padding:2px 7px;border-radius:99px;background:#f3f4f6;font-size:11px;margin-left:4px}.hidden{display:none!important}
+.sheet{display:none;position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:40;align-items:flex-end}.sheet.show{display:flex}.sheetInner{width:100%;max-width:760px;margin:0 auto;background:#fff;border-radius:20px 20px 0 0;padding:20px 18px calc(20px + env(safe-area-inset-bottom))}.sheetInner h2{margin:0 0 10px}.sheetInner p{font-size:13px;color:var(--muted);line-height:1.55}.sheetInner button{display:block;width:100%;padding:12px;border:1px solid var(--line);background:#fff;border-radius:13px;margin-top:8px;font-weight:750}.danger{color:#b91c1c}
+@media(max-width:520px){.toolbar{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}.question{font-size:17px}.card{padding:15px}}
+</style>
 </head>
 <body>
-<header class="topbar">
-  <div class="brand">민법 <b>터치</b></div>
-  <button id="resetBtn" class="ghost">진행상황 초기화</button>
+<div class="app">
+<header>
+  <div class="top"><div class="brand">📚 민법 터치</div><div class="headBtns"><button class="iconBtn" id="statsBtn">📊</button><button class="iconBtn" id="settingsBtn">⚙️</button></div></div>
+  <div class="progress"><div id="bar"></div></div>
 </header>
-<main class="wrap">
-  <section class="hero">
-    <div>
-      <div class="eyebrow">CIVIL · PATENT</div>
-      <h1>민법 터치</h1>
-      <p>랜덤 출제 · 1회독 중복 방지 · 오답 누적 · 빈칸 2지선다</p>
-    </div>
+<main>
+  <div class="toolbar"><select id="subject"></select><select id="category"></select></div>
+  <div class="mode"><button data-mode="all" class="active">전체 문제</button><button data-mode="wrong">오답 집중</button></div>
+  <div class="stats"><div class="stat"><b id="seen">0</b><span>풀이</span></div><div class="stat"><b id="correct">0</b><span>정답</span></div><div class="stat"><b id="rate">0%</b><span>정답률</span></div><div class="stat"><b id="wrong">0</b><span>오답</span></div></div>
+
+  <section class="card" id="quizCard">
+    <div class="meta"><span id="metaLeft"></span><span id="metaRight"></span></div>
+    <div class="step" id="step"></div>
+    <div class="question" id="question"></div>
+    <div class="choices" id="choices"></div>
+    <div class="ox" id="ox"><button id="O">O</button><button id="X">X</button></div>
+    <div class="feedback" id="feedback"><b id="result"></b><div class="explain" id="explain"></div><div class="src" id="src"></div></div>
+    <div class="controls"><button class="ctrl" id="skip">건너뛰기</button><button class="ctrl primary" id="next">다음 문제</button></div>
+    <div class="notice" id="notice"></div>
   </section>
 
-  <section class="controls card">
-    <div class="control-row">
-      <div class="field grow">
-        <label>과목</label>
-        <div class="seg" id="subjectSeg">
-          <button data-subject="민법" class="active">민법</button>
-          <button data-subject="특허법">특허법</button>
-        </div>
-      </div>
-      <div class="field">
-        <label>출제 범위</label>
-        <select id="chapterSelect"><option value="all">전체</option></select>
-      </div>
-      <div class="field">
-        <label>문제 모드</label>
-        <select id="modeSelect">
-          <option value="all">전체 랜덤</option>
-          <option value="unanswered">미풀이만</option>
-          <option value="wrong">오답만</option>
-          <option value="frequent">자주 틀린 문제 (2회 이상)</option>
-        </select>
-      </div>
-    </div>
-  </section>
-
-  <section class="stats-grid">
-    <div class="stat card"><span>전체</span><strong id="totalStat">0</strong></div>
-    <div class="stat card"><span>풀이</span><strong id="attemptStat">0</strong></div>
-    <div class="stat card"><span>정답률</span><strong id="accuracyStat">0%</strong></div>
-    <div class="stat card"><span>오답</span><strong id="wrongStat">0</strong></div>
-  </section>
-
-  <section class="progress card">
-    <div class="progress-head"><span id="cycleText">1회독 준비</span><span id="cycleCount">0 / 0</span></div>
-    <div class="bar"><i id="cycleBar"></i></div>
-  </section>
-
-  <section class="question card" id="questionCard">
-    <div class="q-meta"><span id="chapterBadge">민법총칙</span><span id="qNumber">문제 1</span></div>
-    <div id="questionText" class="question-text">문제를 불러오는 중…</div>
-    <div class="answer-buttons">
-      <button class="choice" data-answer="">1</button>
-      <button class="choice" data-answer="">2</button>
-    </div>
-    <div id="result" class="result hidden"></div>
-    <div id="explanation" class="explanation hidden"></div>
-    <button id="nextBtn" class="next hidden">다음 문제 →</button>
-  </section>
-
-  <section class="actions">
-    <button id="wrongOnlyBtn" class="secondary">오답만 바로 풀기</button>
-    <button id="allBtn" class="secondary">전체 랜덤으로 돌아가기</button>
-  </section>
-
-  <section class="note card">
-    <b>자료 기준</b>
-    <p>민법은 사용자가 제공한 민법 O/X 자료와 「민법 파이널 리뷰 취합본_292(2).pdf」를 기준으로 구성했습니다. 특허법은 기존 특허법 O/X 재분류본의 지문·정답·풀이를 사용합니다.</p>
-    <p>학습 진행·오답 횟수·정답률은 이 기기의 브라우저에만 저장됩니다.</p>
-  </section>
+  <section class="panel hidden" id="statsPanel"><h3>학습 통계</h3><div id="statsList" class="list"></div></section>
 </main>
-<footer>변리사 O/X 문제풀이 · 개인 학습용</footer>
-<script src="data.js"></script>
-<script src="app.js"></script>
-</body>
-</html>
+</div>
+
+<div class="sheet" id="settingsSheet"><div class="sheetInner"><h2>설정</h2><p>학습 기록은 이 기기의 브라우저에 저장됩니다. 민법과 특허법의 기록은 따로 유지됩니다.</p><button id="resetCurrent">현재 과목 기록 초기화</button><button id="resetAll" class="danger">전체 과목 기록 초기화</button><button id="closeSettings">닫기</button></div></div>
+<script>
+const $=id=>document.getElementById(id);
+let DATA=[];
+const KEY='law_touch_integrated_v1';
+let state={subject:'민법',category:'전체',mode:'all',queue:[],pos:0,current:null,slot:0,answered:false,displayOpts:null,stats:{}};
+function loadStats(){try{state.stats=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){state.stats={}}}
+function saveStats(){localStorage.setItem(KEY,JSON.stringify(state.stats))}
+function keyFor(q,slot=null){return slot===null?q.id:q.id+':'+slot}
+function statFor(k){if(!state.stats[k])state.stats[k]={seen:0,correct:0,wrong:0};return state.stats[k]}
+function pool(){return DATA.filter(q=>q.subject===state.subject&&(state.category==='전체'||q.category===state.category))}
+function buildQueue(){let arr=pool();if(state.mode==='wrong')arr=arr.filter(q=>{if(q.type==='blank')return q.slots.some((_,i)=>statFor(keyFor(q,i)).wrong>0);return statFor(q.id).wrong>0});for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]]}state.queue=arr;state.pos=0;state.current=null;state.slot=0;render()}
+function subjectCats(){const vals=DATA.filter(q=>q.subject===state.subject).map(q=>q.category);return [...new Set(vals)]}
+function renderCategories(){const cs=subjectCats();$('category').innerHTML='<option value="전체">전체</option>'+cs.map(c=>`<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');if(!cs.includes(state.category))state.category='전체';$('category').value=state.category}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function totals(){let seen=0,cor=0,w=0;const subjectKeys=DATA.filter(q=>q.subject===state.subject);for(const q of subjectKeys){if(q.type==='blank'){for(let i=0;i<q.slots.length;i++){const s=statFor(keyFor(q,i));seen+=s.seen;cor+=s.correct;w+=s.wrong}}else{const s=statFor(q.id);seen+=s.seen;cor+=s.correct;w+=s.wrong}}return {seen,cor,w,rate:seen?Math.round(cor/seen*100):0}}
+function renderTopStats(){const t=totals();$('seen').textContent=t.seen;$('correct').textContent=t.cor;$('wrong').textContent=t.w;$('rate').textContent=t.rate+'%'}
+function nextQ(){
+ if(!state.queue.length){state.current=null;render();return}
+ if(state.pos>=state.queue.length){buildQueue();return}
+ state.current=state.queue[state.pos++];state.slot=0;state.answered=false;state.displayOpts=null;renderCurrent();
+}
+function renderCurrent(){
+ renderTopStats();
+ const q=state.current;
+ if(!q){$('metaLeft').textContent='';$('metaRight').textContent='';$('step').textContent='';$('question').textContent=state.mode==='wrong'?'현재 과목/범위에 오답 기록이 없습니다.':'문제를 불러오고 있습니다.';$('choices').innerHTML='';$('ox').classList.add('hidden');$('feedback').className='feedback';$('bar').style.width='0%';return}
+ $('metaLeft').textContent=(q.subject==='민법'?'⚖️ ':'📜 ')+q.subject+' · '+q.category;
+ $('metaRight').textContent='문항 '+q.num;
+ $('bar').style.width=(state.pos/Math.max(state.queue.length,1)*100)+'%';
+ $('feedback').className='feedback';$('result').textContent='';$('explain').textContent='';$('src').textContent='';
+ if(q.type==='blank')renderCivil(q);else renderPatent(q);
+}
+function renderCivil(q){
+ $('step').textContent=`빈칸 ${state.slot+1} / ${q.slots.length}`;
+ let t=q.text.replace(/\[\s*[^\]]*\]/g,(m,i)=>m); // preserve source text
+ const re=/\[\s*[^\]]*\]/g; let n=0;
+ $('question').innerHTML=t.replace(re,()=>{n++;const idx=n-1;if(idx<state.slot)return `<span class="doneBlank">${idx+1}</span>`;if(idx===state.slot)return `<span class="currentBlank">${idx+1}</span>`;return `<span>[ ${idx+1} ]</span>`});
+ $('ox').classList.add('hidden');
+ const a=q.slots[state.slot]; let opts=a.options.map((text,i)=>({text,correct:i===a.answerIndex}));for(let i=opts.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[opts[i],opts[j]]=[opts[j],opts[i]]}state.displayOpts=opts;
+ $('choices').innerHTML=opts.map((o,i)=>`<button class="choice" data-i="${i}"><span class="num">${i+1}</span>${escapeHtml(o.text)}</button>`).join('');
+ [...document.querySelectorAll('.choice')].forEach((b,i)=>b.onclick=()=>answerCivil(i));
+ $('notice').textContent='민법은 한 문제의 빈칸을 한 번에 하나씩 풉니다. 모든 빈칸을 완료하면 다음 문제로 넘어갑니다.';
+ $('next').textContent=state.answered?(state.slot===q.slots.length-1?'다음 문제':'다음 빈칸'):'다음 문제';
+}
+function renderPatent(q){
+ $('step').textContent='O / X';$('question').textContent=q.text;$('choices').innerHTML='';$('ox').classList.remove('hidden');$('O').disabled=false;$('X').disabled=false;$('O').className='';$('X').className='';$('notice').textContent='특허법은 O/X 터치 방식입니다.';$('next').textContent='다음 문제';
+}
+function answerCivil(i){if(state.answered)return;state.answered=true;const q=state.current,a=q.slots[state.slot],opts=state.displayOpts;const s=statFor(keyFor(q,state.slot));s.seen++;const ok=opts[i].correct;s.correct+=ok?1:0;s.wrong+=ok?0:1;saveStats();document.querySelectorAll('.choice').forEach((b,j)=>{if(opts[j].correct)b.classList.add('correct');else if(j===i)b.classList.add('wrong');else b.classList.add('dim');b.disabled=true});$('feedback').className='feedback show '+(ok?'good':'bad');$('result').textContent=ok?'✅ 정답':'❌ 오답';$('explain').textContent=a.explanation||'';$('src').textContent=a.source||'';renderTopStats();$('next').textContent=(state.slot===q.slots.length-1?'다음 문제':'다음 빈칸')}
+function answerPatent(v){if(state.answered)return;state.answered=true;const q=state.current,s=statFor(q.id);s.seen++;const ok=v===q.answer;s.correct+=ok?1:0;s.wrong+=ok?0:1;saveStats();const correctBtn=$(q.answer);correctBtn.className='correct';if(!ok)$(v).className='wrong';$('O').disabled=true;$('X').disabled=true;$('feedback').className='feedback show '+(ok?'good':'bad');$('result').textContent=ok?'✅ 정답':'❌ 오답 — 정답은 '+q.answer;$('explain').textContent=q.explanation||'';$('src').textContent=q.source||'';renderTopStats()}
+function advance(){const q=state.current;if(!q)return;if(q.type==='blank'&&!state.answered){nextQ();return}if(q.type==='blank'){if(state.slot<q.slots.length-1){state.slot++;state.answered=false;state.displayOpts=null;renderCurrent();}else{nextQ()}}else{nextQ()}}
+function skip(){nextQ()}
+function render(){renderTopStats();if(!state.current){if(state.queue.length && state.pos<state.queue.length)nextQ();else renderCurrent()}else renderCurrent()}
+function renderStatsPanel(){
+ const rows=[];for(const q of DATA.filter(q=>q.subject===state.subject)){if(q.type==='blank'){for(let i=0;i<q.slots.length;i++){const s=statFor(keyFor(q,i));if(s.seen)rows.push({q,sub:'빈칸 '+(i+1),s})}}else{const s=statFor(q.id);if(s.seen)rows.push({q,sub:'O/X',s})}}
+ rows.sort((a,b)=>b.s.wrong-a.s.wrong||b.s.seen-a.s.seen);$('statsList').innerHTML=rows.length?rows.map(x=>`<div class="item"><b>${escapeHtml(x.q.subject)} · ${escapeHtml(String(x.q.num))}</b><span class="pill">${escapeHtml(x.q.category)} · ${x.sub}</span><div style="margin-top:5px">${escapeHtml(x.q.text)}</div><div class="small" style="margin-top:5px">풀이 ${x.s.seen}회 · 정답 ${x.s.correct}회 · 오답 ${x.s.wrong}회</div></div>`).join(''):'<div class="small">아직 푼 문제가 없습니다.</div>';
+}
+$('subject').onchange=e=>{state.subject=e.target.value;state.category='전체';renderCategories();buildQueue()};$('category').onchange=e=>{state.category=e.target.value;buildQueue()};
+document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-mode]').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.mode=b.dataset.mode;buildQueue()});
+$('O').onclick=()=>answerPatent('O');$('X').onclick=()=>answerPatent('X');$('next').onclick=advance;$('skip').onclick=skip;
+$('statsBtn').onclick=()=>{ $('statsPanel').classList.toggle('hidden'); if(!$('statsPanel').classList.contains('hidden'))renderStatsPanel()};$('settingsBtn').onclick=()=>$('settingsSheet').classList.add('show');$('closeSettings').onclick=()=>$('settingsSheet').classList.remove('show');
+$('resetCurrent').onclick=()=>{if(confirm(state.subject+' 학습 기록을 초기화할까요?')){for(const q of DATA.filter(q=>q.subject===state.subject)){if(q.type==='blank'){for(let i=0;i<q.slots.length;i++)delete state.stats[keyFor(q,i)]}else delete state.stats[q.id]}saveStats();$('settingsSheet').classList.remove('show');buildQueue()}};
+$('resetAll').onclick=()=>{if(confirm('민법과 특허법의 모든 학습 기록을 초기화할까요?')){state.stats={};saveStats();$('settingsSheet').classList.remove('show');buildQueue()}};
+(async()=>{loadStats();DATA=await fetch('questions.json').then(r=>r.json());$('subject').innerHTML='<option value="민법">민법</option><option value="특허법">특허법</option>';renderCategories();buildQueue();if('serviceWorker' in navigator)navigator.serviceWorker.register('./sw.js?v=20261001').catch(()=>{});})();
+</script>
+</body></html>
