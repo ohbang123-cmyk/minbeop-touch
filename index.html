@@ -100,8 +100,11 @@ function filtered(){
 }
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function buildCategories(){
-  const cats=[...new Set(DATA.map(q=>q.category))];
+  const order=['민법총칙','채권총론','채권각론','물권법'];
+  const present=new Set(DATA.map(q=>q.category));
+  const cats=order.filter(c=>present.has(c));
   $('category').innerHTML='<option value="전체">전체</option>'+cats.map(c=>`<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
+  if(!cats.includes(state.category) && state.category!=='전체') state.category='전체';
   $('category').value=state.category;
 }
 function buildQueue(){
